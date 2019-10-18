@@ -531,7 +531,7 @@ textarea:focus {
       cursor: pointer;
 }
 
-#project-1{
+.project-image{
       box-sizing: border-box;
       padding: 0.75rem 6rem;
       width: 100%;
