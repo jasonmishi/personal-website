@@ -517,6 +517,7 @@ textarea:focus {
 .send:hover {
       background: #dfdfdf;
       color: #101010;
+      cursor: pointer;
 }
 
 /*project page*/
@@ -578,7 +579,7 @@ textarea:focus {
       }
       
       #resize {
-            visibility: hidden !important;
+            visibility: hidden;
       }
 
       .project {

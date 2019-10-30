@@ -49,7 +49,7 @@
 
             </nav>
 
-            <section id="resize">
+            <div id="resize">
                   <div class="close-btn">Close</div>
 
                   <ul id="menu">
@@ -58,7 +58,7 @@
                         <li><a href="about.html">About me<span>.</span></a></li>
                         <li><a href="contact.html">Contact<span>.</span></a></li>
                   </ul>
-            </section>
+            </div>
             <!--------------- navbar ends here --------------->
 
 
@@ -204,47 +204,46 @@
 
       <!-- greensock cdn -->
       <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TweenMax.min.js"></script>
-
       <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+
       <script type="text/javascript">
+            // navigation starts here
 
-      // navigation starts here
+            $("#toggle").click(function() {
+                  $(this).toggleClass('on');
+                  $("#resize").toggleClass("active");
+            });
 
-      $("#toggle").click(function() {
-            $(this).toggleClass('on');
-            $("#resize").toggleClass("active");
-      });
+            $("#resize ul li a").click(function() {
+                  $(this).toggleClass('on');
+                  $("#resize").toggleClass("active");
+            });
 
-      $("#resize ul li a").click(function() {
-            $(this).toggleClass('on');
-            $("#resize").toggleClass("active");
-      });
+            $(".close-btn").click(function() {
+                  $(this).toggleClass('on');
+                  $("#resize").toggleClass("active");
+            });
 
-      $(".close-btn").click(function() {
-            $(this).toggleClass('on');
-            $("#resize").toggleClass("active");
-      });
+            // navigation ends here
 
-      // navigation ends here
+            // nav animation
 
-      // nav animation
+            TweenMax.from("#brand", 1, {
+                  delay: 0.4,
+                  y: 10,
+                  opacity: 0,
+                  ease: Expo.easeInOut
+            })
 
-      TweenMax.from("#brand", 1, {
-            delay: 0.4,
-            y: 10,
-            opacity: 0,
-            ease: Expo.easeInOut
-      })
+            TweenMax.staggerFrom("#menu li a", 1, {
+                  delay: 0.4,
+                  opacity: 0,
+                  ease: Expo.easeInOut
+            }, 0.1);
 
-      TweenMax.staggerFrom("#menu li a", 1, {
-            delay: 0.4,
-            opacity: 0,
-            ease: Expo.easeInOut
-      }, 0.1);
+            // nav animation ends
 
-      // nav animation ends
-
-      new WOW().init();
+            new WOW().init();
 
       </script>
 </body>
