@@ -416,6 +416,13 @@ h6 {
 #media ul li {
       display: inline-block;
 }
+
+#media a {
+      text-decoration: none;
+      font-weight: lighter;
+      color: #fff;
+      font-size: 18px;
+}
 /*end of footer section*/
 
 /*work page*/
