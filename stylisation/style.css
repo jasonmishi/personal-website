@@ -257,21 +257,21 @@ h6 {
       height: 500px;
 }
 
-.project1 {
-      background: url(../projects/project-1-disp.jpg) no-repeat 50% 50%;
+.project3 {
+      background: url(../projects/project-3-disp.jpg) no-repeat 50% 50%;
       background-size: cover;
 }
 
-.project1::after {
-      content: "This Website.";
+.project3::after {
+      content: "A* search algorithm.";
       font-family: "Roboto Mono";
       font-size: 36px;
       position: relative;
       color: #fff;
       display: block;
-      top: 8%;
+      top: 4%;
       left: -60%;
-      right: 0px;
+      right: 0;
       bottom: 0;
 }
 
@@ -287,29 +287,30 @@ h6 {
       position: relative;
       color: #fff;
       display: block;
-      top: 80%;
+      top: 40%;
       left: 90%;
       right: 0;
       bottom: 0;
 }
 
-.project3 {
-      background: url(../projects/project-3-disp.jpg) no-repeat 50% 50%;
+.project1 {
+      background: url(../projects/project-1-disp.jpg) no-repeat 50% 50%;
       background-size: cover;
 }
 
-.project3::after {
-      content: "A* search algorithm.";
+.project1::after {
+      content: "This Website.";
       font-family: "Roboto Mono";
       font-size: 36px;
       position: relative;
       color: #fff;
       display: block;
-      top: 30%;
-      left: -30%;
-      right: 0;
+      top: 80%;
+      left: -60%;
+      right: 0px;
       bottom: 0;
 }
+
 
 .project4 {
       background: url(https://images.unsplash.com/photo-1435685813800-51ba4ceb9c4a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1785&q=80) no-repeat 50% 50%;
