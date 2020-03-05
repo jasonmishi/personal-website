@@ -263,7 +263,7 @@ h6 {
 }
 
 .project4::after {
-      content: "Conaway's Game Of Life";
+      content: "Conway's Game Of Life";
       font-family: "Roboto Mono";
       font-size: 36px;
       position: relative;
