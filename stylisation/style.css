@@ -549,13 +549,14 @@ textarea:focus {
 /*media queries*/
 
 @media(max-width: 768px){
-            @keyframes typewriter {
-            from {
-                  width: 0;
-            }
-            to {
-                  width: 100%;
-            }
+
+      @keyframes typewriter {
+      from {
+            width: 0;
+      }
+      to {
+            width: 100%;
+      }
       }
 
       #toggle {
@@ -635,11 +636,17 @@ textarea:focus {
             display: none;
       }
 
-      #project-1{
+      #project{
             padding: 2rem;
       }
 
       .about img{
             padding: 0 1rem;
+      }
+
+      .project-image {
+            box-sizing: border-box;
+            padding: 0 5px;
+            width: 100%;
       }
 }
