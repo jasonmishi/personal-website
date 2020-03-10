@@ -275,6 +275,24 @@ h6 {
       bottom: 0;
 }
 
+.project4-1 {
+      background: url(../projects/project-4-disp.jpg) no-repeat 50% 50%;
+      background-size: cover;
+}
+
+.project4-1::after {
+      content: "Conway's Game Of Life";
+      font-family: "Roboto Mono";
+      font-size: 36px;
+      position: relative;
+      color: #fff;
+      display: block;
+      top: 70%;
+      left: -60%;
+      right: 0px;
+      bottom: 0;
+}
+
 .project3 {
       background: url(../projects/project-3-disp.jpg) no-repeat 50% 50%;
       background-size: cover;
