@@ -257,6 +257,24 @@ h6 {
       height: 500px;
 }
 
+.project5 {
+      background: url(../projects/project-5-disp.jpg) no-repeat 50% 50%;
+      background-size: cover;
+}
+
+.project5::after {
+      content: "Maze Generator (Backtracking)";
+      font-family: "Roboto Mono";
+      font-size: 36px;
+      position: relative;
+      color: #fff;
+      display: block;
+      top: 4%;
+      left: -60%;
+      right: 0;
+      bottom: 0;
+}
+
 .project4 {
       background: url(../projects/project-4-disp.jpg) no-repeat 50% 50%;
       background-size: cover;
