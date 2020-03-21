@@ -16,11 +16,19 @@ function getCookie(cname) {
 function setDark() {
   document.body.style.setProperty("--bg-col", "#000");
   document.body.style.setProperty("--accent-col", "#fff");
+
+  document.body.style.setProperty("--blue-txt-color", "aqua");
 }
 
 function setLight(){
   document.body.style.setProperty("--bg-col", "#fff");
   document.body.style.setProperty("--accent-col", "#000");
+  
+  document.body.style.setProperty("--blue-txt-color", "rgb(0, 17, 255)");
+
+  if (window.matchMedia("(max-width: 768px)").matches) {
+    document.body.style.setProperty("--project-small-txt", "aliceblue");
+  }
 }
 
 
@@ -35,10 +43,10 @@ if (document.cookie.split(';').filter((item) => item.trim().startsWith('theme=')
 } else {
   document.cookie = "theme=dark";
   console.log(document.cookie);
+  setDark();
 }
 
 document.getElementsByClassName("theme-toggle-button")[0].addEventListener("click", function() {
-  console.log("working");
   if(getCookie("theme") === "dark") {
     document.cookie = "theme=light";
     setLight()
