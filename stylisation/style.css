@@ -196,7 +196,7 @@ nav #menu li a:hover {
       opacity: 1;
 }
 
-.theme-toggle-button {
+button {
       border: 1px solid;
 }
 
