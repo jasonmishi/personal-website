@@ -36,7 +36,7 @@
             <!--------------- navbar starts here --------------->
             <nav id="navbar">
                   <span id="brand">
-                        <a href="<?php echo "http://" . $_SERVER['SERVER_NAME']; ?>/index.html">Jason Carvalho</a>
+                        <a href="<?php echo "http://" . $_SERVER['SERVER_NAME']; ?>/index.php">Jason Carvalho</a>
                   </span>
 
                   <ul id="menu">
