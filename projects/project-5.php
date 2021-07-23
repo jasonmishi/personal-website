@@ -29,19 +29,17 @@
                     </div>
                 </div>
                 <br>
-                <p class="wow fadeInUp" data-wow-delay="1.8s">A maze generator made using the p5.js library. It uses a backtracking algorithm.</p>
+                <p class="wow fadeInUp" data-wow-delay="1.8s">A maze generator made using the p5.js library. It uses a backtracking algorithm. Can be found <a href="http://jason.lk/backtrack%20maze/">here.</a></p>
             </div>
         </div>
+        <!--------------- project image section starts here --------------->
+        <div>
+            <img class="project-image wow fadeInUp" data-wow-delay="2s" src="./project-5.jpg" alt="maze generator using backtrack algorithm">
+        </div>
+        <!--------------- project image section ends here --------------->
     </div>
 </div>
 <!--------------- hero section ends here --------------->
-
-
-<!--------------- project image section starts here --------------->
-<div>
-    <img class="project-image" src="./project-4.jpg" alt="Conway's game of Life">
-</div>
-<!--------------- project image section ends here --------------->
 
 <br><br>
 
@@ -50,8 +48,8 @@
 <div class="project-nav">
     <div class="container">
         <div class="row">
-            <span onclick="javascript:location.href='../projects/project-3.html'"><ion-icon name="arrow-back"></ion-icon>previous</span>
-            <span onclick="javascript:location.href='../projects/project-1.html'">next<ion-icon name="arrow-forward"></ion-icon></span>
+            <span onclick="javascript:location.href='../projects/project-4.php'"><ion-icon name="arrow-back"></ion-icon>previous</span>
+            <span onclick="javascript:location.href='../projects/project-6.php'">next<ion-icon name="arrow-forward"></ion-icon></span>
         </div>
     </div>
 </div>
