@@ -271,7 +271,26 @@ h6 {
 }
 
 .project {
-      height: 500px;
+      height: 600px;
+      max-width: 24%;
+}
+
+.project6 {
+      background: url(../projects/project-6-disp.jpg) no-repeat 50% 50%;
+      background-size: cover;
+}
+
+.project6::after {
+      content: "KULeuvenX: UML Class Diagrams";
+      font-family: "Roboto Mono";
+      font-size: 36px;
+      position: relative;
+      color: var(--accent-col);
+      display: block;
+      top: 10%;
+      left: 90%;
+      right: 0;
+      bottom: 0;
 }
 
 .project5 {
@@ -286,10 +305,8 @@ h6 {
       position: relative;
       color: var(--accent-col);
       display: block;
-      top: 4%;
-      left: -60%;
-      right: 0;
-      bottom: 0;
+      top: 20%;
+      right: 40%;
 }
 
 .project4 {
@@ -304,27 +321,9 @@ h6 {
       position: relative;
       color: var(--accent-col);
       display: block;
-      top: 40%;
+      top: 30%;
       left: 90%;
       right: 0;
-      bottom: 0;
-}
-
-.project4-1 {
-      background: url(../projects/project-4-disp.jpg) no-repeat 50% 50%;
-      background-size: cover;
-}
-
-.project4-1::after {
-      content: "Conway's Game Of Life";
-      font-family: "Roboto Mono";
-      font-size: 36px;
-      position: relative;
-      color: var(--accent-col);
-      display: block;
-      top: 70%;
-      left: -60%;
-      right: 0px;
       bottom: 0;
 }
 
@@ -340,10 +339,8 @@ h6 {
       position: relative;
       color: var(--accent-col);
       display: block;
-      top: 4%;
-      left: -60%;
-      right: 0;
-      bottom: 0;
+      top: 40%;
+      right: 40%;
 }
 
 .project2 {
@@ -358,7 +355,7 @@ h6 {
       position: relative;
       color: var(--accent-col);
       display: block;
-      top: 40%;
+      top: 50%;
       left: 90%;
       right: 0;
       bottom: 0;
@@ -376,10 +373,8 @@ h6 {
       position: relative;
       color: var(--accent-col);
       display: block;
-      top: 80%;
-      left: -60%;
-      right: 0px;
-      bottom: 0;
+      top: 60%;
+      right: 40%;
 }
 
 /*end: project section*/
@@ -595,7 +590,7 @@ textarea:focus {
 
 .project-image{
       box-sizing: border-box;
-      padding: 0.75rem 6rem;
+      padding: 0.75rem 0;
       width: 100%;
 }
 
@@ -653,12 +648,7 @@ textarea:focus {
             display: none;
       }
 
-      .project1::after, 
-      .project2::after, 
-      .project3::after, 
-      .project4::after,
-      .project4-1::after,
-      .project5::after {
+      .project::after {
             color: #fff;;
             display: static;
             font-size: 25px;
