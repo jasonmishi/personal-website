@@ -29,19 +29,15 @@
                               </div>
                         </div>
                         <br>
-                        <p class="wow fadeInUp" data-wow-delay="1.8s">This website has been written in HTML, CSS, JavaScript (for the animations) and JQuerry for the <a href="../contact.html#contactForm">contact form</a> validations. To get the contact form to send me an e-mail I used Formspree.io. I experimented by using a darker theme and am really happy with the result. Some of the images used are my own and the rest are in the public domain. I hope to add further functionality to the website and as it\'s my personal website it is a never ending work in progress. I had a lot of fun building this and it has tought me a lot as well. :D</p>
+                        <p class="wow fadeInUp" data-wow-delay="1.8s">This website has been written in PHP, HTML, CSS, JavaScript (for the animations) and JQuerry for the <a href="../contact.html#contactForm">contact form</a> validations. To get the contact form to send me an e-mail I used Formspree.io. I experimented by using a darker theme and am really happy with the result. Some of the images used are my own and the rest are in the public domain. I hope to add further functionality to the website and as it\'s my personal website it is a never ending work in progress. I had a lot of fun building this and it has tought me a lot as well. :D</p>
+                  </div>
+                  <div>
+                        <img  class="wow fadeInUp project-image" data-wow-delay="2s" src="./project-1.jpg" alt="Image of personal website">
                   </div>
             </div>
       </div>
 </div>
 <!--------------- hero section ends here --------------->
-
-
-<!--------------- project image section starts here --------------->
-<div>
-      <img class="project-image" src="./project-1.jpg" alt="Image of personal website">
-</div>
-<!--------------- project image section ends here --------------->
 
 <br><br>
 
@@ -50,8 +46,8 @@
 <div class="project-nav">
       <div class="container">
             <div class="row">
-                  <span onclick="javascript:location.href='../projects/project-4.html'"><ion-icon name="arrow-back"></ion-icon>previous</span>
-                  <span onclick="javascript:location.href='../projects/project-2.html'">next<ion-icon name="arrow-forward"></ion-icon></span>
+                  <span onclick="javascript:location.href='../projects/project-6.php'"><ion-icon name="arrow-back"></ion-icon>previous</span>
+                  <span onclick="javascript:location.href='../projects/project-2.php'">next<ion-icon name="arrow-forward"></ion-icon></span>
             </div>
       </div>
 </div>
