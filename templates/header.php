@@ -7,13 +7,13 @@
       <meta name="author" content="Jason Carvalho">
 
       <title><?php echo $title ?></title>
-      <link rel="shortcut icon" type="image/x-icon" href="../favicon.ico" />
-
-      <!-- stylesheet -->
-      <link rel="stylesheet" href="<?php echo "http://" . $_SERVER['SERVER_NAME']; ?>/stylisation/style.css">
+      <link rel="shortcut icon" type="image/x-icon" href="<?php echo "http://" . $_SERVER['SERVER_NAME']; ?>/favicon.ico" />
 
       <!-- bootstrap cdns -->
       <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css">
+
+      <!-- stylesheet -->
+      <link rel="stylesheet" href="<?php echo "http://" . $_SERVER['SERVER_NAME']; ?>/stylisation/style.css?v=04">
 
       <!-- google fonts -->
       <link href="https://fonts.googleapis.com/css?family=Roboto+Mono:100,100i,300,300i,400,400i,500,500i,700,700i" rel="stylesheet">
