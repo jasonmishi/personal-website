@@ -29,7 +29,20 @@
                     </div>
                 </div>
                 <br>
-                <p class="wow fadeInUp" data-wow-delay="1.8s">This is an implementation of the popular A* search algorithm in java script using the p5.js library. It uses several object oriented concepts. Choosing the fonts and designing the UI was also a lot of fun. I learnt a lot about the p5 library and got its basic principles down. The webpage can be found <a href="../A search/index.html">here</a>. The code is on this <a href="https://github.com/JasonCarvalho-tech/A-star-search-P5.js">github repository</a>.</p>
+                <div class="row project-link">
+                    <div class="col-lg-12">
+                        <span class="wow fadeInUp" data-wow-delay="1.6s"><b>Link :</b> </span>
+                        <span class="wow fadeInUp" data-wow-delay="1.7s"> <a href="<?php echo "http://" . $_SERVER['SERVER_NAME'];?>/A%20search/index.html" target="_blank"><?php echo "http://" . $_SERVER['SERVER_NAME'];?>/A%20search/index.html</a></span>
+                    </div>
+                </div>
+                <div class="row project-link">
+                    <div class="col-lg-12">
+                        <span class="wow fadeInUp" data-wow-delay="1.6s"><b>Code :</b> </span>
+                        <span class="wow fadeInUp" data-wow-delay="1.7s"><ion-icon name="logo-github"></ion-icon> <a href="https://github.com/JasonCarvalho-tech/A-star-search-P5.js" target="_blank">https://github.com/JasonCarvalho-tech/A-star-search-P5.js</a></span>
+                    </div>
+                </div>
+                <br>
+                <p class="wow fadeInUp" data-wow-delay="1.8s">This is an implementation of the popular A* search algorithm in java script using the p5.js library. It uses several object oriented concepts. Choosing the fonts and designing the UI was also a lot of fun. I learnt a lot about the p5 library and got its basic principles down.</p>
             </div>
         </div>
         <!--------------- project image section starts here --------------->

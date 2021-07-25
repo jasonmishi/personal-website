@@ -262,6 +262,20 @@ h6 {
       text-align: center;
 }
 
+.project-link {
+      vertical-align: middle;
+}
+
+.project-link img {
+      height: 0.75em;
+      display: inline-block;
+      vertical-align: middle;
+}
+
+.project-link a {
+      color: #8e9eaf;
+}
+
 .vertical {
       margin-top: 40px;
       border-left: 1px solid var(--accent-col);

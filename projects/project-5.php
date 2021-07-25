@@ -29,7 +29,20 @@
                     </div>
                 </div>
                 <br>
-                <p class="wow fadeInUp" data-wow-delay="1.8s">A maze generator made using the p5.js library. It uses a backtracking algorithm. Can be found <a href="http://jason.lk/backtrack%20maze/">here.</a></p>
+                <div class="row project-link">
+                    <div class="col-lg-12">
+                        <span class="wow fadeInUp" data-wow-delay="1.6s"><b>Link :</b> </span>
+                        <span class="wow fadeInUp" data-wow-delay="1.7s"> <a href="http://jason.lk/backtrack%20maze/" target="_blank">http://jason.lk/backtrack%20maze/</a></span>
+                    </div>
+                </div>
+                <div class="row project-link">
+                    <div class="col-lg-12">
+                        <span class="wow fadeInUp" data-wow-delay="1.6s"><b>Code :</b> </span>
+                        <span class="wow fadeInUp" data-wow-delay="1.7s"><ion-icon name="logo-github"></ion-icon> <a href="https://github.com/JasonCarvalho-tech/backtrack-maze-js" target="_blank">https://github.com/JasonCarvalho-tech/backtrack-maze-js</a></span>
+                    </div>
+                </div>
+                <br>
+                <p class="wow fadeInUp" data-wow-delay="1.8s">A maze generator made using the p5.js library. It uses a backtracking algorithm.</p>
             </div>
         </div>
         <!--------------- project image section starts here --------------->
