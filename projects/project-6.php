@@ -30,8 +30,15 @@
                                     <h6 class="wow fadeInUp" data-wow-delay="1.7s">14 Jum 2021</h6>
                                 </div>
                         </div>
+                        <br>
+                        <div class="row project-link">
+                            <div class="col-lg-12">
+                                <span class="wow fadeInUp" data-wow-delay="1.6s"><b>Link :</b> </span>
+                                <span class="wow fadeInUp" data-wow-delay="1.7s"><img src="<?php echo "http://" . $_SERVER['SERVER_NAME']; ?>/assets/edx-icon.svg"> <a href="https://courses.edx.org/certificates/e6b48d4bb3d946d2be64661497074a3c" target="_blank">https://courses.edx.org/certificates/e6b48d4bb3d946d2be64661497074a3c</a></span>
+                            </div>
+                        </div>
                         <br> <!--customize description-->
-                        <p class="wow fadeInUp" data-wow-delay="1.8s">This certification titled "UMLx: UML Class Diagrams for Software Engineering" is offered by KULeuven's KULeuvenX on edX, it went into the specifics and nitty gritty details of UML class diagrams and how to read them. This was the first course that I did on edX, just to see how everything works and comes out before jumping into a more expensive course. It was a good experience and I can say I gained a lot of new knowledge regarding class diagrams that I previously didn't have. Specifacally in-depth knowledge on how associations work, this might prove useful for me later on. The course was enjoyable and intresting and I will do more courses on edX if they are of a similar quality. <a href="https://courses.edx.org/certificates/e6b48d4bb3d946d2be64661497074a3c">Here</a> is a the certificate I received.</p>
+                        <p class="wow fadeInUp" data-wow-delay="1.8s">This certification titled "UMLx: UML Class Diagrams for Software Engineering" is offered by KULeuven's KULeuvenX on edX, it went into the specifics and nitty gritty details of UML class diagrams and how to read them. This was the first course that I did on edX, just to see how everything works and comes out before jumping into a more expensive course. It was a good experience and I can say I gained a lot of new knowledge regarding class diagrams that I previously didn't have. Specifacally in-depth knowledge on how associations work, this might prove useful for me later on. The course was enjoyable and intresting and I will do more courses on edX if they are of a similar quality.</p>
                     </div>
             </div>
             <!--------------- project image section starts here --------------->

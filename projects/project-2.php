@@ -30,6 +30,19 @@
                     </div>
                 </div>
                 <br>
+                <div class="row project-link">
+                    <div class="col-lg-12">
+                        <span class="wow fadeInUp" data-wow-delay="1.6s"><b>Link :</b> </span>
+                        <span class="wow fadeInUp" data-wow-delay="1.7s"> <a href="<?php echo "http://" . $_SERVER['SERVER_NAME'];?>/holmes-homes/holmes-homes.html" target="_blank"><?php echo "http://" . $_SERVER['SERVER_NAME'];?>/holmes-homes/holmes-homes.html</a></span>
+                    </div>
+                </div>
+                <div class="row project-link">
+                    <div class="col-lg-12">
+                        <span class="wow fadeInUp" data-wow-delay="1.6s"><b>Code :</b> </span>
+                        <span class="wow fadeInUp" data-wow-delay="1.7s"><ion-icon name="logo-github"></ion-icon> <a href="https://github.com/JasonCarvalho-tech/real-estate" target="_blank">https://github.com/JasonCarvalho-tech/real-estate</a></span>
+                    </div>
+                </div>
+                <br>
                 <p class="wow fadeInUp" data-wow-delay="1.8s">This website was been written in HTML, CSS, JavaScript. I used a third party plugin called 'Slick Slider' for the sliders. This website is fully responsive and highlights my ablility to design a fully functional website using a variety of frameworks. I hope to further this project by making a property finder using the google maps API. The website can be found <a href="../holmes-homes/holmes-homes.html" target="_blank">here</a>. The GitHub repo can be found <a href="https://github.com/JasonCarvalho-tech/real-estate" target="_blank">here</a>.</p>
             </div>
         </div>

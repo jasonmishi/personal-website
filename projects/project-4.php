@@ -29,7 +29,20 @@
                     </div>
                 </div>
                 <br>
-                <p class="wow fadeInUp" data-wow-delay="1.8s">This is an implementation of Conway's Game Of Life using React. Conway's game of life is a zero-player cellular automaton that has an infinite board. However my board is restricted to several sizes. Furthermore the website is fully responsive, but the grid does not render well on smaller screens. Really happy with the colour choices and the way it looks. Also thrilled that I could get the cells to be alive or dead using mouse clicks. The application can be found <a href="../GameOfLife/">here</a>. You can view the code on this <a href="https://github.com/JasonCarvalho-tech/Game-Of-Life-js">github repository</a>. To learn more about Conway's game of life you can go to its <a href="https://en.wikipedia.org/wiki/Conway's_Game_of_Life">Wikipedia page</a></p>
+                <div class="row project-link">
+                    <div class="col-lg-12">
+                        <span class="wow fadeInUp" data-wow-delay="1.6s"><b>Link :</b> </span>
+                        <span class="wow fadeInUp" data-wow-delay="1.7s"> <a href="<?php echo "http://" . $_SERVER['SERVER_NAME'];?>/GameOfLife/" target="_blank"><?php echo "http://" . $_SERVER['SERVER_NAME'];?>/GameOfLife/</a></span>
+                    </div>
+                </div>
+                <div class="row project-link">
+                    <div class="col-lg-12">
+                        <span class="wow fadeInUp" data-wow-delay="1.6s"><b>Code :</b> </span>
+                        <span class="wow fadeInUp" data-wow-delay="1.7s"><ion-icon name="logo-github"></ion-icon> <a href="https://github.com/JasonCarvalho-tech/Game-Of-Life-js" target="_blank">https://github.com/JasonCarvalho-tech/Game-Of-Life-js</a></span>
+                    </div>
+                </div>
+                <br>
+                <p class="wow fadeInUp" data-wow-delay="1.8s">This is an implementation of Conway's Game Of Life using React. Conway's game of life is a zero-player cellular automaton that has an infinite board. However my board is restricted to several sizes. Furthermore the website is fully responsive, but the grid does not render well on smaller screens. Really happy with the colour choices and the way it looks. Also thrilled that I could get the cells to be alive or dead using mouse clicks. To learn more about Conway's game of life you can go to its <a href="https://en.wikipedia.org/wiki/Conway's_Game_of_Life">Wikipedia page</a></p>
             </div>
         </div>
         <!--------------- project image section starts here --------------->
