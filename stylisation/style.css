@@ -289,6 +289,22 @@ h6 {
       max-width: 24%;
 }
 
+.project7 {
+      background: url(../projects/project-7-disp.jpg) no-repeat 50% 50%;
+      background-size: cover;
+}
+
+.project7::after {
+      content: "HarvardX: Fundamentals of TinyML ";
+      font-family: "Roboto Mono";
+      font-size: 36px;
+      position: relative;
+      color: var(--accent-col);
+      display: block;
+      top: 10%;
+      right: 40%;
+}
+
 .project6 {
       background: url(../projects/project-6-disp.jpg) no-repeat 50% 50%;
       background-size: cover;
@@ -301,7 +317,7 @@ h6 {
       position: relative;
       color: var(--accent-col);
       display: block;
-      top: 10%;
+      top: 20%;
       left: 90%;
       right: 0;
       bottom: 0;
@@ -319,7 +335,7 @@ h6 {
       position: relative;
       color: var(--accent-col);
       display: block;
-      top: 20%;
+      top: 30%;
       right: 40%;
 }
 
@@ -335,7 +351,7 @@ h6 {
       position: relative;
       color: var(--accent-col);
       display: block;
-      top: 30%;
+      top: 40%;
       left: 90%;
       right: 0;
       bottom: 0;
@@ -353,7 +369,7 @@ h6 {
       position: relative;
       color: var(--accent-col);
       display: block;
-      top: 40%;
+      top: 50%;
       right: 40%;
 }
 
@@ -369,7 +385,7 @@ h6 {
       position: relative;
       color: var(--accent-col);
       display: block;
-      top: 50%;
+      top: 60%;
       left: 90%;
       right: 0;
       bottom: 0;
@@ -387,7 +403,7 @@ h6 {
       position: relative;
       color: var(--accent-col);
       display: block;
-      top: 60%;
+      top: 70%;
       right: 40%;
 }
 
