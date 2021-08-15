@@ -58,7 +58,7 @@
     <div class="container">
         <div class="row">
             <span onclick="javascript:location.href='../projects/project-5.php'"><ion-icon name="arrow-back"></ion-icon>previous</span>
-            <span onclick="javascript:location.href='../projects/project-1.php'">next<ion-icon name="arrow-forward"></ion-icon></span>
+            <span onclick="javascript:location.href='../projects/project-7.php'">next<ion-icon name="arrow-forward"></ion-icon></span>
         </div>
     </div>
 </div>
