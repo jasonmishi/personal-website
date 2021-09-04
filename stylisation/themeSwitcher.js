@@ -3,6 +3,7 @@ function setDark() {
   document.body.style.setProperty("--accent-col", "#fff");
 
   document.body.style.setProperty("--blue-txt-color", "aqua");
+  document.body.style.setProperty("--text-bg-col", "initial");
   localStorage.setItem("jasonlk-theme", "dark");
 }
 
@@ -15,6 +16,7 @@ function setLight(){
   if (window.matchMedia("(max-width: 768px)").matches) {
     document.body.style.setProperty("--project-small-txt", "aliceblue");
   }
+  document.body.style.setProperty("--text-bg-col", "#fff");
   localStorage.setItem("jasonlk-theme", "light");
 }
 
