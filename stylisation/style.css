@@ -289,6 +289,11 @@ h6 {
       max-width: 24%;
 }
 
+.project::after {
+      background-color: var(--text-bg-col);
+      padding:4px;
+}
+
 .project7 {
       background: url(../projects/project-7-disp.jpg) no-repeat 50% 50%;
       background-size: cover;
