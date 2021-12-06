@@ -43,7 +43,7 @@
                   <div class="row">
                         <div class="col-lg-7"></div>
 
-                        <div class="col-lg-4 project project7 wow fadeInUp" onclick="javascript:location.href='./projects/project-7.html'"></div>
+                        <div class="col-lg-4 project project7 wow fadeInUp" onclick="javascript:location.href='./projects/project-7.php'"></div>
 
                         <div class="col-lg-1"></div>
                   </div>
@@ -51,7 +51,7 @@
                   <div class="row">
                         <div class="col-lg-0"></div>
 
-                        <div class="col-lg-3 project project6 wow fadeInUp" onclick="javascript:location.href='./projects/project-6.html'"></div>
+                        <div class="col-lg-3 project project6 wow fadeInUp" onclick="javascript:location.href='./projects/project-6.php'"></div>
 
                         <div class="col-lg-6"></div>
                   </div>
@@ -61,7 +61,7 @@
                   <div class="row">
                         <div class="col-lg-7"></div>
 
-                        <div class="col-lg-4 project project3 wow fadeInUp" onclick="javascript:location.href='./projects/project-3.html'"></div>
+                        <div class="col-lg-4 project project3 wow fadeInUp" onclick="javascript:location.href='./projects/project-3.php'"></div>
 
                         <div class="col-lg-1"></div>
                   </div>
