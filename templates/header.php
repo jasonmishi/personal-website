@@ -13,7 +13,7 @@
       <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css">
 
       <!-- stylesheet -->
-      <link rel="stylesheet" href="<?php echo "http://" . $_SERVER['SERVER_NAME']; ?>/stylisation/style.css?v=08">
+      <link rel="stylesheet" href="<?php echo "http://" . $_SERVER['SERVER_NAME']; ?>/stylisation/style.css?v=09">
 
       <!-- google fonts -->
       <link href="https://fonts.googleapis.com/css?family=Roboto+Mono:100,100i,300,300i,400,400i,500,500i,700,700i" rel="stylesheet">
