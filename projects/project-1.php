@@ -59,7 +59,7 @@
 <div class="project-nav">
       <div class="container">
             <div class="row">
-                  <span onclick="javascript:location.href='../projects/project-6.php'"><ion-icon name="arrow-back"></ion-icon>previous</span>
+                  <span onclick="javascript:location.href='../projects/project-8.php'"><ion-icon name="arrow-back"></ion-icon>previous</span>
                   <span onclick="javascript:location.href='../projects/project-2.php'">next<ion-icon name="arrow-forward"></ion-icon></span>
             </div>
       </div>
