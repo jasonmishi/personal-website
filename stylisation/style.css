@@ -294,6 +294,22 @@ h6 {
       padding:4px;
 }
 
+.project8-home {
+      background: url(../projects/project-7-disp.jpg) no-repeat 50% 50%;
+      background-size: cover;
+}
+
+.project8-home::after {
+      content: "HarvardX: Professional Certificate in TinyML";
+      font-family: "Roboto Mono";
+      font-size: 36px;
+      position: relative;
+      color: var(--accent-col);
+      display: block;
+      top: 10%;
+      right: 40%;
+}
+
 .project8 {
       background: url(../projects/project-7-disp.jpg) no-repeat 50% 50%;
       background-size: cover;
