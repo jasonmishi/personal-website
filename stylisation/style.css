@@ -709,8 +709,13 @@ textarea:focus {
       }
 
       .project {
-            width: 90% !important;
+            width: 90%;
+            max-width: none;
             margin: 14px auto;
+      }
+
+      .project.project8-home::after {
+            top: 75%;
       }
 
       .vertical {
