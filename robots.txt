@@ -1,5 +1,0 @@
-User-agent: *
-Disallow: /stylisation/
-
-User-agent: *
-Dissallow: /functionJs/
