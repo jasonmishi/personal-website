@@ -44,8 +44,16 @@
       margin: 0;
       padding: 0;
 
-      span.icon {
-        visibility: hidden;
+      a {
+        text-decoration: none;
+
+        span.icon {
+          visibility: hidden;
+        }
+
+        span.text {
+          text-decoration: underline;
+        }
       }
     }
 
