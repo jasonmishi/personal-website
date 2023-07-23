@@ -43,6 +43,17 @@
       display: inline-block;
       margin: 0;
       padding: 0;
+
+      span.icon {
+        visibility: hidden;
+      }
+    }
+
+    li:hover {
+      span.icon {
+        visibility: visible;
+        transition: visibility 0.5s ease;
+      }
     }
   }
 }
