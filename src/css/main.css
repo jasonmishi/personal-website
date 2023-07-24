@@ -9,6 +9,12 @@
   width: 1px;
 }
 
+
+/* specific styles */
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
 /* navbar styles */
 .navbar {
   display: flex;
