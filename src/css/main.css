@@ -18,6 +18,7 @@
   width: 100%;
   top: -100px;
   animation: slide 2s forwards;
+  padding: 0 2rem;
 
   @keyframes slide {
     100% { top: 0; }
@@ -35,7 +36,9 @@
 
   ul {
     list-style: none;
-    display: inline-block;
+    display: inline-flex;
+    align-items: center;
+    gap: 0 1rem;
     padding: 0;
     margin: 0;
 
@@ -46,21 +49,48 @@
 
       a {
         text-decoration: none;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        min-height: 3rem;
 
-        span.icon {
-          visibility: hidden;
+        span {
+          display: inline-block;
         }
 
         span.text {
           text-decoration: underline;
         }
       }
-    }
 
-    li:hover {
-      span.icon {
-        visibility: visible;
-        transition: visibility 0.5s ease;
+      a:hover {
+        
+        span.icon {
+          animation: rotationAndFontSize 2s forwards;
+        }
+
+        span.text {
+          animation: fontSize 2s forwards;
+        }
+
+        @keyframes rotationAndFontSize {
+          50% {
+            font-size: 2rem;
+            transform: rotate(-72.5deg);
+          }
+          to {
+            font-size: 2rem;
+          }
+        }
+
+        @keyframes fontSize {
+          50% {
+            font-size: 2rem;
+          }
+          to {
+            font-size: 2rem;
+          }
+        }
       }
     }
   }
