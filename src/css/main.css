@@ -29,9 +29,23 @@
     display: inline-block;
     font-family: "Sen", sans-serif;
     font-size: 1.75rem;
+    letter-spacing: 0.15rem;
     font-weight: 700;
     color: black;
     text-decoration: none;
+  }
+
+  a.logo:hover {
+    color: #ef3550;
+    text-shadow: -1px 1px #ef3550,
+                -2px 2px #f48fb1,
+                -3px 3px #7e57c2,
+                -4px 4px #2196f3,
+                -5px 5px #26c6da,
+                -6px 6px #43a047,
+                -7px 7px #eeff41,
+                -8px 8px #f9a825,
+                -9px 9px #ff5722;
   }
 
   ul {
