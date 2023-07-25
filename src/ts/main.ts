@@ -9,4 +9,5 @@ const resizeObserver = new ResizeObserver(entries => {
     }
 });
 
-resizeObserver.observe(document.querySelector('.navbar'));
+const navbar = document.querySelector('.navbar');
+if (navbar) resizeObserver.observe(navbar);
