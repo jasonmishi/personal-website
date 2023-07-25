@@ -4,10 +4,11 @@ console.log(asciiArt);
 /*
  *add margin to top of page based on .navbar height
 */
+const main = document.querySelector('main');
 const resizeObserver = new ResizeObserver(entries => {
   for (let entry of entries) {
     const navbarHeight = entry.contentRect.height;
-    document.body.style.marginTop = `${navbarHeight}px`;
+    if (main) main.style.paddingTop = `${navbarHeight}px`;
   }
 });
 
