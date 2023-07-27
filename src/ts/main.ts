@@ -26,10 +26,10 @@ function detectTheme(): 'light' | 'dark' {
 
 function setTheme(theme: 'light' | 'dark') {
   if (theme == 'dark') {
-    document.body.classList.add('dark');
+    document.documentElement.classList.add('dark');
     localStorage.setItem('theme', 'dark');
   } else {
-    document.body.classList.remove('dark');
+    document.documentElement.classList.remove('dark');
     localStorage.setItem('theme', 'light');
   }
 }
