@@ -32,8 +32,8 @@
 body {
   font-family: "Open Sans", sans-serif;
   font-size: var(--fs-400);
-  background-color: var(--foreground);
-  color: var(--background);
+  background-color: var(--background);
+  color: var(--foreground);
 }
 
 /* navbar styles */
@@ -61,7 +61,7 @@ body {
     font-size: var(--fs-500);
     letter-spacing: 0.15rem;
     font-weight: 700;
-    color: black;
+    color: var(--foreground);
     text-decoration: none;
   }
 
