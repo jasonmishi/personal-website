@@ -42,4 +42,17 @@ if (themeToggle) {
   });
 }
 
+// listen to prefers-color-scheme changes
+const colorSchemeQueryList = window.matchMedia('(prefers-color-scheme: dark)');
+  
+const setColorScheme = (e : MediaQueryListEvent) => {
+  if (e.matches) {
+    setTheme('dark')
+  } else {
+    setTheme('light')
+  }
+}
+  
+colorSchemeQueryList.addEventListener('change', setColorScheme);
+
 setTheme(detectTheme())
