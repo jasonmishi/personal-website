@@ -23,9 +23,6 @@ body {
 
 /* navbar styles */
 .navbar {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
   position: absolute;
   width: 100%;
   top: -100px;
@@ -36,6 +33,12 @@ body {
     100% { top: 0; }
   }
 
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+  }
 
   a.logo {
     display: inline-block;
