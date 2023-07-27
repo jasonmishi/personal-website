@@ -14,3 +14,32 @@ const resizeObserver = new ResizeObserver(entries => {
 
 const navbar = document.querySelector('.navbar');
 if (navbar) resizeObserver.observe(navbar);
+
+/* 
+ * dark mode toggle
+ */
+function detectTheme(): 'light' | 'dark' {
+  const theme = localStorage.getItem('theme');
+  if (theme == 'dark' || theme == 'light') return theme;
+  return window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+}
+
+function setTheme(theme: 'light' | 'dark') {
+  if (theme == 'dark') {
+    document.body.classList.add('dark');
+    localStorage.setItem('theme', 'dark');
+  } else {
+    document.body.classList.remove('dark');
+    localStorage.setItem('theme', 'light');
+  }
+}
+
+const themeToggle = document.querySelector('.theme-toggle');
+if (themeToggle) {
+  themeToggle.addEventListener('click', () => {
+    const theme = detectTheme();
+    setTheme(theme == 'dark' ? 'light' : 'dark');
+  });
+}
+
+setTheme(detectTheme())
