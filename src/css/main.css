@@ -9,11 +9,15 @@
 
   --foreground: var(--clr-primary-400);
   --background: var(--clr-bg-400);
+
+  --anchor-color: initial;
 }
 
 :root.dark {
   --foreground: var(--clr-bg-400);
   --background: var(--clr-primary-400);
+
+  --anchor-color: var(--foreground);
 }
 
 /* basic styles */
@@ -34,6 +38,10 @@ body {
   font-size: var(--fs-400);
   background-color: var(--background);
   color: var(--foreground);
+}
+
+a {
+  color: var(--anchor-color);
 }
 
 /* navbar styles */
