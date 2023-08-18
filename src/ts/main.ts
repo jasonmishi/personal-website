@@ -39,8 +39,6 @@ if (themeToggle) {
   themeToggle.addEventListener('click', () => {
     const theme = detectTheme();
     setTheme(theme == 'dark' ? 'light' : 'dark');
-    // change src attribute of theme toggle icon
-    themeToggle.setAttribute('src', theme == 'dark' ? 'imgs/bs-icons/brightness-high-fill.svg' : 'imgs/bs-icons/moon-stars-fill.svg');
   });
 }
 
