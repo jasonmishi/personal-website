@@ -149,6 +149,31 @@ a {
   }
 }
 
+:root .navbar {
+  .theme-toggle {
+    svg.light-mode {
+      display: block;
+    }
+
+    svg.dark-mode {
+      display: none;
+    }
+  }
+}
+
+:root.dark .navbar {
+  .theme-toggle {
+    svg.light-mode {
+      display: none;
+    }
+
+    svg.dark-mode {
+      display: block;
+    }
+  }
+}
+
+
 /* main section */
 main {
   display: flex;
