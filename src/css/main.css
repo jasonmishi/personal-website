@@ -47,6 +47,7 @@ a {
 /* navbar styles */
 .navbar {
   display: flex;
+  align-items: center;
   position: absolute;
   width: 100%;
   top: -100px;
@@ -152,7 +153,6 @@ a {
   .theme-toggle {
     margin-left: 1rem;
     height: 100%;
-
 
     svg {
       height: 1.5rem;
