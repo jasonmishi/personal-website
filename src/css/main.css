@@ -46,6 +46,7 @@ a {
 
 /* navbar styles */
 .navbar {
+  display: flex;
   position: absolute;
   width: 100%;
   top: -100px;
@@ -58,7 +59,7 @@ a {
 
   nav {
     display: flex;
-    justify-content: space-between;
+    justify-content: end;
     align-items: center;
     width: 100%;
   }
