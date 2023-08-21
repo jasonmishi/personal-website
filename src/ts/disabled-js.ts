@@ -3,4 +3,6 @@
  * user has js disabled they will still be able to use the site
  */
 
+document.querySelectorAll('.js-required').forEach((el) => el.classList.remove('js-required'));
+
 const get_em_to_px_rate = () => document.querySelector('#em')?.clientWidth || 16;

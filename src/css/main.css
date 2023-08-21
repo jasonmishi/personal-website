@@ -40,6 +40,10 @@ body {
   color: var(--foreground);
 }
 
+.js-required {
+  display: none;
+}
+
 a {
   color: var(--anchor-color);
 }
