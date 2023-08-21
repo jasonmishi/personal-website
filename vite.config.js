@@ -1,8 +1,5 @@
-import { viteStaticCopy } from 'vite-plugin-static-copy'
-
 export default {
-  plugins: [
-  ],
+  plugins: [],
   root: 'src',
   build: {
     outDir: '../dist'
