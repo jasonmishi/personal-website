@@ -29,3 +29,5 @@ if (em_reference_element)
   set_break_points.observe(em_reference_element);
 else
   console.error('em_reference_element not found');
+
+const get_viewport_width = () => window.innerWidth;
