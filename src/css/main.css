@@ -51,6 +51,7 @@ a {
 svg.bi {
   width: 1.5rem;
   height: 1.5rem;
+  display: block;
 }
 
 /* navbar styles */
