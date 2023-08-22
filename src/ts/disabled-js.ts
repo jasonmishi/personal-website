@@ -25,9 +25,26 @@ const set_break_points = new ResizeObserver(() => {
   }
 });
 
+const get_break_point = (break_point: string) => {
+  return break_points[break_point];
+}
+
 if (em_reference_element)
   set_break_points.observe(em_reference_element);
 else
   console.error('em_reference_element not found');
 
+
 const get_viewport_width = () => window.innerWidth;
+
+const choose_break_point = () => {
+  if (get_viewport_width() > get_break_point('lg')) {
+    onBreakPointlg();
+  }
+}
+choose_break_point();
+window.addEventListener('resize', choose_break_point);
+
+function onBreakPointlg() {
+  console.log('lg');
+}
