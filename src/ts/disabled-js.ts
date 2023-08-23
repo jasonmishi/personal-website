@@ -10,40 +10,40 @@ const get_em_to_px_rate = () => em_reference_element?.clientWidth || 16;
 
 em_reference_element
 
-const break_points_em = {
+const breakpoints_em = {
   sm: 40,
   md: 48,
   lg: 64,
   xl: 80,
 }
-const break_points: {[key: string]: number} = {};
+const breakpoints: {[key: string]: number} = {};
 
-const set_break_points = new ResizeObserver(() => {
+const generate_breakpoints = new ResizeObserver(() => {
   const em_to_px_rate = get_em_to_px_rate();
-  for(const [key, value] of Object.entries(break_points_em)) {
-    break_points[key] = value * em_to_px_rate;
+  for(const [key, value] of Object.entries(breakpoints_em)) {
+    breakpoints[key] = value * em_to_px_rate;
   }
 });
 
-const get_break_point = (break_point: string) => {
-  return break_points[break_point];
+const get_breakpoint = (breakpoint: string) => {
+  return breakpoints[breakpoint];
 }
 
 if (em_reference_element)
-  set_break_points.observe(em_reference_element);
+  generate_breakpoints.observe(em_reference_element);
 else
   console.error('em_reference_element not found');
 
 
 const get_viewport_width = () => window.innerWidth;
 
-const choose_break_point = () => {
-  if (get_viewport_width() < get_break_point('lg')) {
+const choose_breakpoint = () => {
+  if (get_viewport_width() < get_breakpoint('lg')) {
     onLessThanlgBreakPoint();
   }
 }
-choose_break_point();
-window.addEventListener('resize', choose_break_point);
+choose_breakpoint();
+window.addEventListener('resize', choose_breakpoint);
 
 function onLessThanlgBreakPoint() {
   console.log('lg');
