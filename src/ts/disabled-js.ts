@@ -38,13 +38,13 @@ else
 const get_viewport_width = () => window.innerWidth;
 
 const choose_break_point = () => {
-  if (get_viewport_width() > get_break_point('lg')) {
-    onBreakPointlg();
+  if (get_viewport_width() < get_break_point('lg')) {
+    onLessThanlgBreakPoint();
   }
 }
 choose_break_point();
 window.addEventListener('resize', choose_break_point);
 
-function onBreakPointlg() {
+function onLessThanlgBreakPoint() {
   console.log('lg');
 }
