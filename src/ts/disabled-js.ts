@@ -18,21 +18,25 @@ const breakpoints_em = {
 }
 const breakpoints: {[key: string]: number} = {};
 
-const generate_breakpoints = new ResizeObserver(() => {
+const generate_breakpoints = () => {
   const em_to_px_rate = get_em_to_px_rate();
   for(const [key, value] of Object.entries(breakpoints_em)) {
     breakpoints[key] = value * em_to_px_rate;
   }
-});
+}
+
+const generate_breakpoints_observer = new ResizeObserver(generate_breakpoints);
+
+if (em_reference_element){
+  generate_breakpoints();
+  generate_breakpoints_observer.observe(em_reference_element);
+}
+else
+  console.error('em_reference_element not found');
 
 const get_breakpoint = (breakpoint: string) => {
   return breakpoints[breakpoint];
 }
-
-if (em_reference_element)
-  generate_breakpoints.observe(em_reference_element);
-else
-  console.error('em_reference_element not found');
 
 
 const get_viewport_width = () => window.innerWidth;
