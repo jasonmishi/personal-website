@@ -44,6 +44,8 @@ const get_viewport_width = () => window.innerWidth;
 const choose_breakpoint = () => {
   if (get_viewport_width() < get_breakpoint('md')) {
     onLessThanmdBreakpoint();
+  } else {
+    onGreaterThanmdBreakpoint()
   }
 }
 choose_breakpoint();
@@ -52,4 +54,8 @@ window.addEventListener('resize', choose_breakpoint);
 // TODO: have an array to hide/show elements on shirnk/grow
 function onLessThanmdBreakpoint() {
   document.querySelector('.navbar nav ul')?.classList.add('hidden');
+}
+
+function onGreaterThanmdBreakpoint() {
+  document.querySelector('.navbar nav ul')?.classList.remove('hidden');
 }
