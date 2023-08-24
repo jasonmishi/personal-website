@@ -8,8 +8,6 @@ document.querySelectorAll('.js-required').forEach((el) => el.classList.remove('j
 const em_reference_element = document.querySelector('#em');
 const get_em_to_px_rate = () => em_reference_element?.clientWidth || 16;
 
-em_reference_element
-
 const breakpoints_em = {
   sm: 40,
   md: 48,
