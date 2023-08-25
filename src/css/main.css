@@ -41,7 +41,7 @@ body {
 }
 
 .js-required {
-  display: none;
+  display: none !important;
 }
 
 .hidden {
