@@ -5,10 +5,6 @@
 
 document.querySelectorAll('.js-required').forEach((el) => el.classList.remove('js-required'));
 
-const em_reference_element = document.querySelector('#em');
-// TODO: Use matchMedia instead
-const get_em_to_px_rate = () => em_reference_element?.clientWidth || 16;
-
 const breakpoints = {
   sm: "40em",
   md: "48em",
