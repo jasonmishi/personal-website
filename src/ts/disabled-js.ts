@@ -6,42 +6,20 @@
 document.querySelectorAll('.js-required').forEach((el) => el.classList.remove('js-required'));
 
 const em_reference_element = document.querySelector('#em');
-// TODO: Use matchMedia instead of this
+// TODO: Use matchMedia instead
 const get_em_to_px_rate = () => em_reference_element?.clientWidth || 16;
 
-const breakpoints_em = {
-  sm: 40,
-  md: 48,
-  lg: 64,
-  xl: 80,
+const breakpoints = {
+  sm: "40em",
+  md: "48em",
+  lg: "64em",
+  xl: "80em",
 }
-const breakpoints: {[key: string]: number} = {};
-
-const generate_breakpoints = () => {
-  const em_to_px_rate = get_em_to_px_rate();
-  for(const [key, value] of Object.entries(breakpoints_em)) {
-    breakpoints[key] = value * em_to_px_rate;
-  }
-}
-
-const generate_breakpoints_observer = new ResizeObserver(generate_breakpoints);
-
-if (em_reference_element){
-  generate_breakpoints();
-  generate_breakpoints_observer.observe(em_reference_element);
-}
-else
-  console.error('em_reference_element not found');
-
-const get_breakpoint = (breakpoint: string) => {
-  return breakpoints[breakpoint];
-}
-
 
 const get_viewport_width = () => window.innerWidth;
 
 const choose_breakpoint = () => {
-  if (get_viewport_width() < get_breakpoint('md')) {
+  if (!window.matchMedia(`screen and (min-width: ${breakpoints.md})`).matches) {
     onLessThanmdBreakpoint();
   } else {
     onGreaterThanmdBreakpoint()
