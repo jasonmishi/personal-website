@@ -26,9 +26,10 @@ window.addEventListener('resize', choose_breakpoint);
 
 // TODO: have an array to hide/show elements on shirnk/grow
 function onLessThanmdBreakpoint() {
-  document.querySelector('.navbar nav ul')?.classList.add('hidden');
+  document.querySelector('.navbar nav ul')?.classList.add('hidden', 'mobile');
 }
 
 function onGreaterThanmdBreakpoint() {
-  document.querySelector('.navbar nav ul')?.classList.remove('hidden');
+  document.querySelector('.navbar nav ul')?.classList.remove('hidden', 'mobile');
 }
+
