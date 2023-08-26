@@ -67,6 +67,15 @@ svg.bi {
   display: block;
 }
 
+.backdrop {
+  position: fixed;
+  background: black;
+  z-index: 1;
+  height: 100%;
+  width: 100%;
+  top: 0;
+}
+
 /* navbar styles */
 .navbar {
   display: flex;
