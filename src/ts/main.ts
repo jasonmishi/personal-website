@@ -68,4 +68,6 @@ setTheme(detectTheme())
 document.querySelector('.navbar #menu-toggle')?.addEventListener('click', () => {
   //TODO: check if this is enought for a11y
   document.querySelector('.navbar nav ul')?.classList.toggle('hidden');
+  // insert backgorund element
+  document.querySelector('body')?.appendChild(document.createElement('div')).classList.add('backdrop');
 });
