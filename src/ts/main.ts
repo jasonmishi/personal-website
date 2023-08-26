@@ -59,3 +59,13 @@ const setColorScheme = (e : MediaQueryListEvent) => {
 colorSchemeQueryList.addEventListener('change', setColorScheme);
 
 setTheme(detectTheme())
+
+
+/**
+ * menu toggles
+ */
+
+document.querySelector('.navbar #menu-toggle')?.addEventListener('click', () => {
+  //TODO: check if this is enought for a11y
+  document.querySelector('.navbar nav ul')?.classList.toggle('hidden');
+});
