@@ -32,4 +32,3 @@ function onLessThanmdBreakpoint() {
 function onGreaterThanmdBreakpoint() {
   document.querySelector('.navbar nav ul')?.classList.remove('hidden', 'mobile');
 }
-
