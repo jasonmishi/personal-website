@@ -65,9 +65,17 @@ setTheme(detectTheme())
  * menu toggles
  */
 
+const add_backdrop_to_body = () => {
+  document.querySelector('body')?.appendChild(document.createElement('div')).classList.add('backdrop', 'hidden');
+}
+add_backdrop_to_body();
+
+const show_backdrop = () => {
+  document.querySelector('.backdrop')?.classList.remove('hidden')
+};
+
 document.querySelector('.navbar #menu-open')?.addEventListener('click', () => {
   //TODO: check if this is enought for a11y
   document.querySelector('.navbar nav ul')?.classList.add('hidden');
-  // insert backgorund element
-  document.querySelector('body')?.appendChild(document.createElement('div')).classList.add('backdrop');
+  show_backdrop();
 });
