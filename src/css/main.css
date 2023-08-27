@@ -194,9 +194,22 @@ svg.bi {
   }
 
   @media screen and (min-width: 48em) {
-    #menu-toggle {
+    #menu-open {
       display: none;
     }
+  }
+
+  #menu-close {
+    display: none;
+  }
+
+  .mobile ~ #menu-close {
+    display: block;
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    cursor: pointer;
+    z-index: 2;
   }
 
   .theme-toggle {

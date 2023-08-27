@@ -65,7 +65,7 @@ setTheme(detectTheme())
  * menu toggles
  */
 
-document.querySelector('.navbar #menu-toggle')?.addEventListener('click', () => {
+document.querySelector('.navbar #menu-open')?.addEventListener('click', () => {
   //TODO: check if this is enought for a11y
   document.querySelector('.navbar nav ul')?.classList.toggle('hidden');
   // insert backgorund element
