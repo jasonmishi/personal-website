@@ -76,6 +76,6 @@ const show_backdrop = () => {
 
 document.querySelector('.navbar #menu-open')?.addEventListener('click', () => {
   //TODO: check if this is enought for a11y
-  document.querySelector('.navbar nav ul')?.classList.add('hidden');
+  document.querySelector('.navbar nav ul')?.classList.remove('hidden');
   show_backdrop();
 });
