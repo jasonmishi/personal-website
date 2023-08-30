@@ -1,4 +1,5 @@
 "use strict";
+import { ElementNotFound } from "./errors.ts";
 
 // eslint-disable-next-line no-useless-escape
 const asciiArt = '   __  ______  ______  ______  __   __  __    __  __  ______  __  __  __    \r\n  \/\\ \\\/\\  __ \\\/\\  ___\\\/\\  __ \\\/\\ \"-.\\ \\\/\\ \"-.\/  \\\/\\ \\\/\\  ___\\\/\\ \\_\\ \\\/\\ \\   \r\n _\\_\\ \\ \\  __ \\ \\___  \\ \\ \\\/\\ \\ \\ \\-.  \\ \\ \\-.\/\\ \\ \\ \\ \\___  \\ \\  __ \\ \\ \\  \r\n\/\\_____\\ \\_\\ \\_\\\/\\_____\\ \\_____\\ \\_\\\\\"\\_\\ \\_\\ \\ \\_\\ \\_\\\/\\_____\\ \\_\\ \\_\\ \\_\\ \r\n\\\/_____\/\\\/_\/\\\/_\/\\\/_____\/\\\/_____\/\\\/_\/ \\\/_\/\\\/_\/  \\\/_\/\\\/_\/\\\/_____\/\\\/_\/\\\/_\/\\\/_\/ ';
@@ -70,12 +71,15 @@ const add_backdrop_to_body = () => {
 }
 add_backdrop_to_body();
 
+const backdrop = document.querySelector('.backdrop');
+if (!backdrop) throw new ElementNotFound('.backdrop');
+
 const show_backdrop = () => {
-  document.querySelector('.backdrop')?.classList.remove('hidden')
+  backdrop.classList.remove('hidden')
 };
 
 const hide_backdrop = () => {
-  document.querySelector('.backdrop')?.classList.add('hidden')
+  backdrop.classList.add('hidden')
 }
 
 const open_menu = () => {
@@ -83,6 +87,7 @@ const open_menu = () => {
   document.querySelector('.navbar nav ul')?.classList.remove('hidden');
   document.querySelector('#menu-close')?.classList.remove('hidden');
   show_backdrop();
+  backdrop.addEventListener('click', close_menu);
 }
 
 document.querySelector('#menu-open')?.addEventListener('click', open_menu);
@@ -91,6 +96,7 @@ const close_menu = () => {
   document.querySelector('.navbar nav ul')?.classList.add('hidden');
   document.querySelector('#menu-close')?.classList.add('hidden');
   hide_backdrop();
+  backdrop.removeEventListener('click', close_menu);
 }
 
 document.querySelector('#menu-close')?.addEventListener('click', close_menu);
