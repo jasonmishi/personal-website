@@ -82,12 +82,14 @@ const hide_backdrop = () => {
   backdrop.classList.add('hidden')
 }
 
+const menu_buttons = document.querySelectorAll('header nav ul a');
 const open_menu = () => {
   //TODO: check if this is enought for a11y
   document.querySelector('.navbar nav ul')?.classList.remove('hidden');
   document.querySelector('#menu-close')?.classList.remove('hidden');
   show_backdrop();
   backdrop.addEventListener('click', close_menu);
+  menu_buttons.forEach((el) => el.addEventListener('click', close_menu));
 }
 
 document.querySelector('#menu-open')?.addEventListener('click', open_menu);
@@ -97,6 +99,7 @@ const close_menu = () => {
   document.querySelector('#menu-close')?.classList.add('hidden');
   hide_backdrop();
   backdrop.removeEventListener('click', close_menu);
+  menu_buttons.forEach((el) => el.removeEventListener('click', close_menu));
 }
 
 document.querySelector('#menu-close')?.addEventListener('click', close_menu);
