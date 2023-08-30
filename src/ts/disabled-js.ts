@@ -12,8 +12,6 @@ const breakpoints = {
   xl: "80em",
 }
 
-const get_viewport_width = () => window.innerWidth;
-
 const choose_breakpoint = () => {
   if (!window.matchMedia(`screen and (min-width: ${breakpoints.md})`).matches) {
     onLessThanmdBreakpoint();
