@@ -141,7 +141,22 @@ svg.bi {
       align-items: flex-start;
 
       li {
-        padding: 0 1.25rem;
+        width: 100%;
+
+        a {
+          padding: 0 1.25rem;
+        }
+
+        a:hover {
+          
+          span.icon {
+            animation: initial;
+          }
+
+          span.text {
+            animation: initial;
+          }
+        }
       }
     }
 
