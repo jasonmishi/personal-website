@@ -10,6 +10,7 @@
 :root {
   --fs-400: 1.25rem;
   --fs-500: 1.75rem;
+  --fs-600: 2rem;
 }
 
 :root {
@@ -194,20 +195,20 @@ svg.bi {
 
         @keyframes rotationAndFontSize {
           50% {
-            font-size: 2rem;
+            font-size: var(--fs-600);
             transform: rotate(-72.5deg);
           }
           to {
-            font-size: 2rem;
+            font-size: var(--fs-600);
           }
         }
 
         @keyframes fontSize {
           50% {
-            font-size: 2rem;
+            font-size: var(--fs-600);
           }
           to {
-            font-size: 2rem;
+            font-size: var(--fs-600);
           }
         }
       }
