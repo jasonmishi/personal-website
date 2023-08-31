@@ -138,6 +138,11 @@ svg.bi {
       top: 0;
       height: 100vh;
       z-index: 2;
+      align-items: flex-start;
+
+      li {
+        padding: 0 1.25rem;
+      }
     }
 
     li {
