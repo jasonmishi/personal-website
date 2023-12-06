@@ -17,6 +17,6 @@
     "eslint": "^8.40.0",
     "postcss-nested": "^6.0.1",
     "typescript": "^5.0.2",
-    "vite": "^4.4.7"
+    "vite": "^4.4.12"
   }
 }
