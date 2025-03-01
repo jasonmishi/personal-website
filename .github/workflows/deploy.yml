@@ -1,8 +1,8 @@
 name: Deploy site
 
 env:
- BRANCH_NAME: ${{ github.head_ref || github.ref_name }}
- COMMIT_SHA: ${{ github.sha }}
+  BRANCH_NAME: ${{ github.head_ref || github.ref_name }}
+  COMMIT_SHA: ${{ github.sha }}
 
 on:
   push:
