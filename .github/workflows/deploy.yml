@@ -1,5 +1,9 @@
 name: Deploy site
 
+env:
+ BRANCH_NAME: ${{ github.head_ref || github.ref_name }}
+ COMMIT_SHA: ${{ github.sha }}
+
 on:
   push:
     branches:
@@ -101,4 +105,4 @@ jobs:
         with:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
-          command: pages deploy _site --project-name=jasonmishi
+          command: pages deploy _site --project-name=jasonmishi --branch=${{ env.BRANCH_NAME }} --commit-hash=${{ env.COMMIT_SHA }}
