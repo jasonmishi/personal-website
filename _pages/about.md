@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Software Engineer, and (hopefully) a life-long learner.
+subtitle: Software Engineer, and a (hopefully) life-long learner.
 
 profile:
   align: right
