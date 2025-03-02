@@ -9,8 +9,7 @@ profile:
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>Colombo, Sri Lanka</p>
-    <p>Earth, Solar System, Milky Way</p>
+    <p>Colombo, Sri Lanka, Earth, The Milky Way</p>
     <p>(But I also can be reached via the Internet)</p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
