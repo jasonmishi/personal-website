@@ -5,6 +5,7 @@ on:
     branches:
       - master
       - main
+      - prod
     paths:
       - "assets/**"
       - "_sass/**"
@@ -33,6 +34,7 @@ on:
     branches:
       - master
       - main
+      - prod
     paths:
       - "assets/**"
       - "_sass/**"
