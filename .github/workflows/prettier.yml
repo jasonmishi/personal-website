@@ -5,10 +5,12 @@ on:
     branches:
       - master
       - main
+      - prod
   push:
     branches:
       - master
       - main
+      - prod
 
 jobs:
   check:
