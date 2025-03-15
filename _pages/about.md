@@ -26,8 +26,10 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+Hi, I'm Jason. You have found my own little corner on the internet, there are many like it but this is mine. Here you will find my writings. The main focus would be subjects related to the process of writing, building and deploying software. You might find content from me on other platforms, and some might even wonder what's the point of a personal website, can't you just put this stuff on dev.to and call it a day? I am a firm believer in a decentralized internet, and an internet full of personality, having a personal website is a way for me to live out that belief.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+I'm currently a (Senior) Machine Learning Engineer in my 9-5. I help build data pipelines and AI workflows for larger companies. I also still do "traditional" software engineering to make those systems work both reliably and at scale. I'm interested in how we can use human systems, machines and computer systems to solve the toughest challenges humanity has come to face with, both in a practical and theoretical sense.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+My CV can be found [here](). Contact information is on the footer of this page. Please do not contact me if you are a Prince from a distant land with any kind of liquidity problem, someone who knows some 10x investor well and wants to present an opprutinity or someone who has devised a scheme to make money whose business model looks strikingly like a pyramid.
+
+This site is made with jekyll using the al-folio template. I used to have a completely custom site, unfortunately it desperately needs a rewrite and this is easier on the fingers.
