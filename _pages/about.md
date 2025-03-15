@@ -26,7 +26,7 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Hi, I'm Jason. You have found my own little corner on the internet, there are many like it but this is mine. Here you will find my writings. The main focus would be subjects related to the process of writing, building and deploying software. You might find content from me on other platforms, and some might even wonder what's the point of a personal website, can't you just put this stuff on dev.to and call it a day? I am a firm believer in a decentralized internet, and an internet full of personality, having a personal website is a way for me to live out that belief.
+Hi, I'm Jason. You have found my own little corner on the internet, there are many like it but this is mine. Here you will find my writings. The main focus would be subjects related to the process of writing, building and deploying software. I am a believer in a decentralized internet, and an internet full of personality, having a personal website is a way for me to live out that belief.
 
 I'm currently a (Senior) Machine Learning Engineer in my 9-5. I help build data pipelines and AI workflows for larger companies. I also still do "traditional" software engineering to make those systems work both reliably and at scale. I'm interested in how we can use human systems, machines and computer systems to solve the toughest challenges humanity has come to face with, both in a practical and theoretical sense.
 
