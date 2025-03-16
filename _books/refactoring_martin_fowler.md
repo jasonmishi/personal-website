@@ -1,6 +1,6 @@
 ---
 layout: book-review
-title: Refactoring: Improving the Design of Existing Code, 2nd Edition 
+title: "Refactoring: Improving the Design of Existing Code, 2nd Edition"
 author: Martin Fowler
 olid: OL26629721M # use Open Library ID to fetch cover (if no `cover` is provided)
 isbn: 9780134757599 # use ISBN to fetch cover (if no `olid` is provided, dashes are optional)
