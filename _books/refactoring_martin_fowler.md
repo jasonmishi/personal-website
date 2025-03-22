@@ -8,8 +8,8 @@ isbn: 9780134757599 # use ISBN to fetch cover (if no `olid` is provided, dashes 
 categories: classics non-fiction software-engineering OOP
 tags: top-100
 buy_link: https://www.informit.com/store/refactoring-improving-the-design-of-existing-code-9780134757599?ranMID=24808
-started: 2022
-finished: 2022
+started: 2022-01-04
+finished: 2022-02-01
 released: 2018
 stars: 5
 status: Finished
