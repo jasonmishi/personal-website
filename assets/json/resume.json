@@ -140,50 +140,19 @@
       "name": "Artificial Intelligence and Machine Learning",
       "level": "Professional",
       "icon": "fa-solid fa-hashtag",
-      "keywords": [
-        "tensorflow",
-        "TinyML",
-        "Natural Language Processing",
-        "pandas",
-        "langchain",
-        "R",
-        "Data Analysis",
-        "Python"
-      ]
+      "keywords": ["tensorflow", "TinyML", "Natural Language Processing", "pandas", "langchain", "R", "Data Analysis", "Python"]
     },
     {
       "name": "Web Development",
       "level": "Professional",
       "icon": "fa-solid fa-globe",
-      "keywords": [
-        "JavaScript",
-        "Vue.js",
-        "TypeScript",
-        "CSS",
-        "Django",
-        "FastAPI",
-        "React",
-        "Electron",
-        "Git",
-        "Python",
-        "Wordpress"
-      ]
+      "keywords": ["JavaScript", "Vue.js", "TypeScript", "CSS", "Django", "FastAPI", "React", "Electron", "Git", "Python", "Wordpress"]
     },
     {
       "name": "DevOps, Linux and Cloud",
       "level": "Intermediate",
       "icon": "fa-solid fa-cloud",
-      "keywords": [
-        "python",
-        "AWS",
-        "Docker",
-        "Git",
-        "NixOS",
-        "Linux",
-        "GitHub Actions",
-        "CI/CD",
-        "Serverless"
-      ]
+      "keywords": ["python", "AWS", "Docker", "Git", "NixOS", "Linux", "GitHub Actions", "CI/CD", "Serverless"]
     }
   ],
   "languages": [
@@ -202,13 +171,7 @@
     {
       "name": "Phychology",
       "icon": "fa-solid fa-tag",
-      "keywords": [
-        "metacognition",
-        "learning theories",
-        "cognitive development",
-        "memory",
-        "stress"
-      ]
+      "keywords": ["metacognition", "learning theories", "cognitive development", "memory", "stress"]
     }
   ]
 }
