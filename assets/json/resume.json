@@ -30,6 +30,23 @@
   "work": [
     {
       "name": "Innodata Inc. (Innodata Lanka)",
+      "position": "Senior Machine Learning Engineer",
+      "url": "https://innodata.com/",
+      "startDate": "2024-07-01",
+      "summary": "",
+      "highlights": [""]
+    },
+    {
+      "name": "20C / FullCtl",
+      "position": "Software Engineer",
+      "url": "https://20c.com/",
+      "startDate": "2022-02-01",
+      "endDate": "2024-07-01",
+      "summary": "",
+      "highlights": [""]
+    },
+    {
+      "name": "Innodata Inc. (Innodata Lanka)",
       "position": "Software Engineer",
       "url": "https://innodata.com/",
       "startDate": "2020-04-01",
@@ -40,21 +57,21 @@
   ],
   "volunteer": [
     {
-      "organization": "People's Climate March",
-      "location": "Zurich, Switzerland",
-      "position": "Lead Organizer",
-      "url": "https://example.com",
-      "startDate": "2014-04-01",
-      "endDate": "2015-07-01",
-      "summary": "Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.",
-      "highlights": ["Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march.", "Men of the year 2014 by Time magazine"]
+      "organization": "Toastmasters International",
+      "location": "IIT, Colombo, Sri Lanka",
+      "position": "Sergeant at Arms",
+      "url": "https://www.toastmasters.org/Find-a-Club/03835845-informatics-institute-of-technology",
+      "startDate": "2023-06-01",
+      "endDate": "2024-06-01",
+      "summary": "As seargent at arms, I am responsible for aquiring and setting meeting space, managing and ensuring that all necessary materials are available, and maintaining order during the meeting. I also assist the president in managing the meeting and help to create a positive and productive environment for all members.",
+      "highlights": ["Club won the Golden Gavel for the year.", "Club won the President's Distinguished Club award for the year."]
     }
   ],
   "education": [
     {
       "institution": "University of Westminster, (Delivered by Informatics Institute of Technology)",
       "location": "Colombo, Sri Lanka",
-      "url": "https://www.uzh.ch/",
+      "url": "https://www.westminster.ac.uk/international/your-country/sri-lanka",
       "area": "Software Engineering",
       "studyType": "BEng",
       "startDate": "2021-01-01",
@@ -71,70 +88,101 @@
   ],
   "awards": [
     {
-      "title": "Nobel Prize in Physics",
-      "date": "1921-11-01",
-      "awarder": "Royal Swedish Academy of Sciences",
-      "url": "https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/",
-      "summary": "The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'"
+      "title": "IIT Excelence Award",
+      "date": "2024-12-31",
+      "awarder": "Informatics Institute of Technology",
+      "summary": "Awarded for outstanding performance and contribution to the university community."
+    },
+    {
+      "title": "Predicta 1.0 - Second Runners Up",
+      "date": "2024-05-30",
+      "awarder": "IEEE - University of Peradeniya",
+      "url": "https://web.archive.org/web/20250510115153/https://ieee.soc.pdn.ac.lk/events/predicta",
+      "summary": "AI hackathon organized by IEEE - University of Peradeniya. Team DataDragons."
+    },
+    {
+      "title": "Champion - Parallax 2022",
+      "date": "2022-05-30",
+      "awarder": "Rotract Club of Informatics Institute of Technology",
+      "summary": "Designathon and hackathon for web UI/UX and web development."
+    },
+    {
+      "title": "Haxmas 2022 - First Runners up",
+      "date": "2022-05-30",
+      "awarder": "Rotract Club of Informatics Institute of Technology",
+      "summary": "Ideathon and hackathon sponsored and hosted by Ascentic, organized by Rotract Club of IIT."
+    },
+    {
+      "title": "InfoSchol Scholarship - 2021 Jan",
+      "date": "2021-01-01",
+      "awarder": "Informatics Institute of Technology",
+      "summary": "One of 70 recipeients for the Scholarship that covers the entire tuition fee for the BEng Software Engineering degree by working at selected companies."
     }
   ],
   "certificates": [
     {
-      "name": "Machine Learning",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
+      "name": "Professional Certificate: Tiny Machine Learning (TinyML)",
+      "date": "2021-11-01",
+      "issuer": "HarvardX",
+      "url": "https://credentials.edx.org/credentials/6a47bab396284f1c935965e152ee9bbb/",
       "icon": "fa-solid fa-location-dot"
     },
     {
-      "name": "Quantum Computing",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
+      "name": "Software Architecture Foundations",
+      "date": "2022-05-01",
+      "issuer": "LinkedIn",
+      "url": "https://www.linkedin.com/learning/certificates/d8f04fb6ae5c17fffc5465c700f5dda4aac1f00f38e2d632e297bab083dc08d5?accountId=76664938&u=76664938&success=true&authUUID=0T02qg1wTHKheEBALozDfQ%3D%3D",
       "icon": "fa-solid fa-tag"
-    },
-    {
-      "name": "Quantum Information",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-envelope"
-    },
-    {
-      "name": "Quantum Cryptography",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-hashtag"
-    },
-    {
-      "name": "Quantum Communication",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-calendar"
-    },
-    {
-      "name": "Quantum Teleportation",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-clipboard-check"
     }
   ],
-  "publications": [],
   "skills": [
     {
-      "name": "Physics",
-      "level": "Master",
+      "name": "Artificial Intelligence and Machine Learning",
+      "level": "Professional",
       "icon": "fa-solid fa-hashtag",
       "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
+        "tensorflow",
+        "TinyML",
+        "Natural Language Processing",
+        "pandas",
+        "langchain",
+        "R",
+        "Data Analysis",
+        "Python"
+      ]
+    },
+    {
+      "name": "Web Development",
+      "level": "Professional",
+      "icon": "fa-solid fa-globe",
+      "keywords": [
+        "JavaScript",
+        "Vue.js",
+        "TypeScript",
+        "CSS",
+        "Django",
+        "FastAPI",
+        "React",
+        "Electron",
+        "Git",
+        "Python",
+        "Wordpress"
+      ]
+    },
+    {
+      "name": "DevOps, Linux and Cloud",
+      "level": "Intermediate",
+      "icon": "fa-solid fa-cloud",
+      "keywords": [
+        "python",
+        "AWS",
+        "Docker",
+        "Git",
+        "NixOS",
+        "Linux",
+        "GitHub Actions",
+        "CI/CD",
+        "Serverless"
       ]
     }
   ],
@@ -152,38 +200,15 @@
   ],
   "interests": [
     {
-      "name": "Physics",
+      "name": "Phychology",
       "icon": "fa-solid fa-tag",
       "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
+        "metacognition",
+        "learning theories",
+        "cognitive development",
+        "memory",
+        "stress"
       ]
-    }
-  ],
-  "references": [
-    {
-      "name": "Professor John Doe",
-      "icon": "fa-solid fa-laptop",
-      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
-    },
-    {
-      "name": "Professor John Doe",
-      "icon": "fa-solid fa-thumbtack",
-      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
-    }
-  ],
-  "projects": [
-    {
-      "name": "Quantum Computing",
-      "summary": "Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.",
-      "highlights": ["Quantum Teleportation", "Quantum Cryptography"],
-      "startDate": "2018-01-01",
-      "endDate": "2018-01-01",
-      "url": "https://example.com"
     }
   ]
 }
