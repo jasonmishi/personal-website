@@ -9,6 +9,7 @@ tags: fiction great-books-of-the-western-world
 buy_link: https://standardebooks.org/ebooks/herman-melville/moby-dick
 started: 2022-01-04
 finished: 2025-04-15
+date: 2025-04-15
 released: 1851
 stars: 5
 status: Finished

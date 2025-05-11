@@ -9,6 +9,7 @@ tags: top-1 non-fiction
 buy_link: https://web.archive.org/web/20250306075256/https://www.makeitstick.com/
 started: 2024-01-04
 finished: 2024-02-01
+date: 2024-02-01
 released: 2014
 stars: 5
 status: Finished

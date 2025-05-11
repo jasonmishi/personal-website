@@ -9,6 +9,7 @@ tags: top-100 non-fiction
 buy_link: https://web.archive.org/web/20250301214612/https://sensible.com/dont-make-me-think/
 started: 2022-01-04
 finished: 2022-02-01
+date: 2022-02-01
 released: 2013
 stars: 4.5
 status: Finished
