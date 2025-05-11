@@ -2,7 +2,7 @@
 layout: book-review
 title: "Don’t Make Me Think, Revisited: A Common Sense Approach to Web (and Mobile) Usability"
 author: "Steve Krug"
-cover: assets/img/book_covers/dont_make_me_think_revsisted.jpg
+cover: assets/img/book_covers/dont_make_me_think_revisited.jpg
 isbn: 9780321965516 # use ISBN to fetch cover (if no `olid` is provided, dashes are optional)
 categories: non-fiction UX UI meta-cognition design
 tags: top-100 non-fiction
