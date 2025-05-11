@@ -3,7 +3,7 @@ layout: book-review
 title: "Moby-Dick; or, The Whale"
 author: Herman Melville
 cover: assets/img/book_covers/moby_dick_melville.jpg
-isbn: 9780142437247  # use ISBN to fetch cover (if no `olid` is provided, dashes are optional)
+isbn: 9780142437247 # use ISBN to fetch cover (if no `olid` is provided, dashes are optional)
 categories: classics fiction whales greed great-books-of-the-western-world
 tags: fiction great-books-of-the-western-world
 buy_link: https://standardebooks.org/ebooks/herman-melville/moby-dick
