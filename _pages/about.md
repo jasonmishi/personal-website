@@ -2,16 +2,15 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: Software Engineer, and a (hopefully) life-long learner.
 
 profile:
   align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p>Colombo, Sri Lanka, Earth, The Milky Way.</p>
+    <p>(But please try via the Internet first)</p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
@@ -27,8 +26,16 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+## Intro
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+Hi, I'm Jason. You have found my own little corner on the internet, there are many like it but this is mine. Here you will find my writings. The main focus would be subjects related to the process of writing, building and deploying software. I am a believer in a decentralized internet, and an internet full of personality, having a personal website is a way for me to live out that belief.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+## Biography
+
+I'm currently a (Senior) Machine Learning Engineer in my 9-5. I help build data pipelines and AI workflows for larger companies. I also still do "traditional" software engineering to make those systems work both reliably and at scale. I'm interested in how we can use human systems, machines and computer systems to solve the toughest challenges humanity has come to face with, both in a practical and theoretical sense.
+
+My CV can be found [here](/cv/). Contact information is on the footer of this page. Please do not contact me if you are a Prince from a distant land with a liquidity problems, or someone who has devised a scheme to make money whose business model looks strikingly like a pyramid. Everyone else please go ahead.
+
+## About this site
+
+This site is made with jekyll using the al-folio template and hosted on Cloudflare Pages. I used to have a completely custom site, unfortunately it desperately needs a rewrite and this is easier on the fingers.

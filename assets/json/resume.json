@@ -1,200 +1,208 @@
 {
   "basics": {
-    "name": "Albert Einstein",
-    "label": "Scientist",
+    "name": "Jason (Mishike) Carvalho",
+    "label": "Senior Software Engineer",
     "image": "",
-    "email": "albert@einstein.de",
-    "phone": "(912) 123-4567",
-    "url": "https://alshedivat.github.io/al-folio/",
-    "summary": "A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time",
+    "email": "jasonmishi@gmail.com",
+    "phone": "-",
+    "url": "https://jason.lk",
+    "summary": "Generalist Software Engineer with a focus on Artificial Intelligence, automation and full stack web-development. Capable of using a combination of technical and people skills to deliver high-quality system solutions. Interested in how things and people work. Broad technical expertise in software design and development, machine learning, and data science. Adoptable and interested in varying technology engineering roles.",
     "location": {
-      "address": "2712 Broadway St",
-      "postalCode": "CA 94115",
-      "city": "San Francisco",
-      "countryCode": "US",
-      "region": "California"
+      "address": "",
+      "postalCode": "11300",
+      "city": "Wattala",
+      "countryCode": "LK",
+      "region": "Colombo"
     },
     "profiles": [
       {
-        "network": "Twitter",
-        "username": "AlbertEinstein",
-        "url": "https://twitter.com/AlbertEinstein"
+        "network": "GitHub",
+        "username": "jasonmishi",
+        "url": "https://github.com/jasonmishi"
+      },
+      {
+        "network": "LinkedIn",
+        "username": "jasonmishi",
+        "url": "https://www.linkedin.com/in/jasonmishi/"
       }
     ]
   },
   "work": [
     {
-      "name": "Institute for Advanced Study, Princeton University",
-      "position": "Professor of Theoretical Physics",
-      "url": "https://example.com",
-      "startDate": "1933-01-01",
-      "endDate": "1955-01-01",
-      "summary": "Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.",
-      "highlights": ["Relativity"]
+      "name": "Innodata Inc. (Innodata Lanka)",
+      "position": "Senior Machine Learning Engineer",
+      "url": "https://innodata.com/",
+      "startDate": "2024-07-01",
+      "summary": "Architect and deploy multi-lingual, multi-region AI solutions for major global publishers, ensuring GDPR and ISO 27001 compliance. Develop internal tools for FANG and tech company projects. Drive company transformation through CI/CD, serverless architectures, and DevOps best practices.",
+      "highlights": [
+        "Introduced the use of CICD and Code Quality tools such as SonarQube to the company.",
+        "Utilized serverless, containerized architectures to reduce costs in low traffic AI solutions.",
+        "Architected highly available, multi-region deployed multi-lingual AI solutions for publishing clients.",
+        "Introduced the company to IaC in line with customer requirements.",
+        "Helping with efforts to containerize legacy applications"
+      ]
+    },
+    {
+      "name": "20C / FullCtl",
+      "position": "Software Engineer",
+      "url": "https://20c.com/",
+      "startDate": "2022-02-01",
+      "endDate": "2024-07-01",
+      "summary": "Developed full-stack network automation tools at open source first company specializing in network security. Built and maintained FullCtl peering management and network automation tools. Contributed to maintaining PeeringDB open source project. Led frontend development initially with legacy vanilla JS library and then later migration effort to Vue.js. Did backend work with Python and Django.",
+      "highlights": [
+        "Introduced the use of Vue.js instead of an inhouse vanilla JS framework.",
+        "Took over and maintained a project for a internet exchange standards organization that was previously developed by another company when there was no experience within the company for the technology stack used.",
+        "OpenSource contributions to PeeringDB",
+        "Overhaul of UI for fullctl",
+        "Developed and help deploy many documentation and client websites using fully automated CI/CD"
+      ]
+    },
+    {
+      "name": "Innodata Inc. (Innodata Lanka)",
+      "position": "Software Engineer",
+      "url": "https://innodata.com/",
+      "startDate": "2020-04-01",
+      "endDate": "2022-02-01",
+      "summary": "Was hired in some of the company's first outsourcing software development projects. Initially in a data engineering/web scraping project and then assigned as the only frontend engineer in a project to develop a WYSIWYG custom XML editor for one the largest standards organizations. This product has become a key part of the company's product line.",
+      "highlights": [
+        "POC for a serverless containerized web scraping solution using AWS Lambda and Docker.",
+        "Developed and designed a custom WYSIWYG XML editor with custom formats and plugins for a large standards organization."
+      ]
     }
   ],
   "volunteer": [
     {
-      "organization": "People's Climate March",
-      "location": "Zurich, Switzerland",
-      "position": "Lead Organizer",
-      "url": "https://example.com",
-      "startDate": "2014-04-01",
-      "endDate": "2015-07-01",
-      "summary": "Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.",
-      "highlights": ["Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march.", "Men of the year 2014 by Time magazine"]
+      "organization": "Toastmasters International",
+      "location": "IIT, Colombo, Sri Lanka",
+      "position": "Sergeant at Arms",
+      "url": "https://www.toastmasters.org/Find-a-Club/03835845-informatics-institute-of-technology",
+      "startDate": "2023-06-01",
+      "endDate": "2024-06-01",
+      "summary": "As seargent at arms, I am responsible for aquiring and setting meeting space, managing and ensuring that all necessary materials are available, and maintaining order during the meeting. I also assist the president in managing the meeting and help to create a positive and productive environment for all members.",
+      "highlights": ["Club won the Golden Gavel for the year.", "Club won the President's Distinguished Club award for the year."]
     }
   ],
   "education": [
     {
-      "institution": "University of Zurich, Zurich, Switzerland",
-      "location": "Zurich, Switzerland",
-      "url": "https://www.uzh.ch/",
-      "area": "Software Development",
-      "studyType": "PhD",
-      "startDate": "1905-01-01",
-      "endDate": "1905-01-01",
-      "score": "10",
-      "courses": ["Theory of Relativity"]
+      "institution": "University of Westminster, (Delivered by Informatics Institute of Technology)",
+      "location": "Colombo, Sri Lanka",
+      "url": "https://www.westminster.ac.uk/international/your-country/sri-lanka",
+      "area": "Software Engineering",
+      "studyType": "BEng",
+      "startDate": "2021-01-01",
+      "endDate": "2026-05-01",
+      "score": "ongoing",
+      "courses": [
+        "Artificial Intelligence & Data Science",
+        "Concurrent Programming",
+        "Data Structures & Algorithms",
+        "Formal Methods",
+        "Cyber Security"
+      ]
     }
   ],
   "awards": [
     {
-      "title": "Nobel Prize in Physics",
-      "date": "1921-11-01",
-      "awarder": "Royal Swedish Academy of Sciences",
-      "url": "https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/",
-      "summary": "The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'"
+      "title": "IIT Excelence Award",
+      "date": "2024-12-31",
+      "awarder": "Informatics Institute of Technology",
+      "summary": "Awarded for outstanding performance and contribution to the university community."
+    },
+    {
+      "title": "Predicta 1.0 - Second Runners Up",
+      "date": "2024-05-30",
+      "awarder": "IEEE - University of Peradeniya",
+      "url": "https://web.archive.org/web/20250510115153/https://ieee.soc.pdn.ac.lk/events/predicta",
+      "summary": "AI hackathon organized by IEEE - University of Peradeniya. Team DataDragons."
+    },
+    {
+      "title": "Champion - Parallax 2022",
+      "date": "2022-05-30",
+      "awarder": "Rotract Club of Informatics Institute of Technology",
+      "summary": "Designathon and hackathon for web UI/UX and web development."
+    },
+    {
+      "title": "Haxmas 2022 - First Runners up",
+      "date": "2022-05-30",
+      "awarder": "Rotract Club of Informatics Institute of Technology",
+      "summary": "Ideathon and hackathon sponsored and hosted by Ascentic, organized by Rotract Club of IIT."
+    },
+    {
+      "title": "InfoSchol Scholarship - 2021 Jan",
+      "date": "2021-01-01",
+      "awarder": "Informatics Institute of Technology",
+      "summary": "One of 70 recipeients for the Scholarship that covers the entire tuition fee for the BEng Software Engineering degree by working at selected companies."
     }
   ],
   "certificates": [
     {
-      "name": "Machine Learning",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
+      "name": "Linux Systems Administration and DevOps Engineering (On-going)",
+      "date": "2025-11-01",
+      "issuer": "WSO2",
       "icon": "fa-solid fa-location-dot"
     },
     {
-      "name": "Quantum Computing",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
+      "name": "Professional Certificate: Tiny Machine Learning (TinyML)",
+      "date": "2021-11-01",
+      "issuer": "HarvardX",
+      "url": "https://credentials.edx.org/credentials/6a47bab396284f1c935965e152ee9bbb/",
+      "icon": "fa-solid fa-location-dot"
+    },
+    {
+      "name": "Software Architecture Foundations",
+      "date": "2022-05-01",
+      "issuer": "LinkedIn",
+      "url": "https://www.linkedin.com/learning/certificates/d8f04fb6ae5c17fffc5465c700f5dda4aac1f00f38e2d632e297bab083dc08d5?accountId=76664938&u=76664938&success=true&authUUID=0T02qg1wTHKheEBALozDfQ%3D%3D",
       "icon": "fa-solid fa-tag"
-    },
-    {
-      "name": "Quantum Information",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-envelope"
-    },
-    {
-      "name": "Quantum Cryptography",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-hashtag"
-    },
-    {
-      "name": "Quantum Communication",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-calendar"
-    },
-    {
-      "name": "Quantum Teleportation",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-clipboard-check"
-    }
-  ],
-  "publications": [
-    {
-      "name": "Zur Elektrody/namik bewegter Körper",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1905-06-30",
-      "url": "https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies",
-      "summary": "It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source."
-    },
-    {
-      "name": "Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1905-03-18",
-      "url": "https://de.wikisource.org/wiki/Über_einen_die_Erzeugung_und_Verwandlung_des_Lichtes_betreffenden_heuristischen_Gesichtspunkt",
-      "summary": "In the second paper, he applied the quantum theory to light to explain the photoelectric effect. In particular, he used the idea of light quanta (photons) to explain experimental results, but stressed the importance of the experimental results. The importance of his work on the photoelectric effect earned him the Nobel Prize in Physics in 1921."
-    },
-    {
-      "name": "Die Grundlage der allgemeinen Relativitätstheorie",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1916-03-20",
-      "url": "https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativitätstheorie",
-      "summary": "The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914)."
     }
   ],
   "skills": [
     {
-      "name": "Physics",
-      "level": "Master",
+      "name": "Artificial Intelligence and Machine Learning",
+      "level": "Professional",
       "icon": "fa-solid fa-hashtag",
-      "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
-      ]
+      "keywords": ["tensorflow", "TinyML", "Natural Language Processing", "pandas", "langchain", "R", "Data Analysis", "Python"]
+    },
+    {
+      "name": "DevOps, Linux and Cloud",
+      "level": "Intermediate",
+      "icon": "fa-solid fa-cloud",
+      "keywords": ["python", "AWS", "Docker", "Git", "NixOS", "Linux", "GitHub Actions", "CI/CD", "Serverless"]
+    },
+    {
+      "name": "Web Development",
+      "level": "Professional",
+      "icon": "fa-solid fa-globe",
+      "keywords": ["JavaScript", "Vue.js", "TypeScript", "CSS", "Django", "FastAPI", "React", "Electron", "Git", "Python", "Wordpress"]
     }
   ],
   "languages": [
     {
-      "language": "German",
-      "fluency": "Native speaker",
+      "language": "English",
+      "fluency": "Fluent",
       "icon": ""
     },
     {
-      "language": "English",
-      "fluency": "Fluent",
+      "language": "Sinhala",
+      "fluency": "Proficient",
       "icon": ""
     }
   ],
   "interests": [
     {
-      "name": "Physics",
+      "name": "Phychology",
       "icon": "fa-solid fa-tag",
-      "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
-      ]
-    }
-  ],
-  "references": [
-    {
-      "name": "Professor John Doe",
-      "icon": "fa-solid fa-laptop",
-      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
+      "keywords": ["metacognition", "learning theories", "memory", "stress"]
     },
     {
-      "name": "Professor John Doe",
-      "icon": "fa-solid fa-thumbtack",
-      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
-    }
-  ],
-  "projects": [
+      "name": "Music",
+      "icon": "fa-solid fa-tag",
+      "keywords": ["guitar", "singing", "songwriting"]
+    },
     {
-      "name": "Quantum Computing",
-      "summary": "Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.",
-      "highlights": ["Quantum Teleportation", "Quantum Cryptography"],
-      "startDate": "2018-01-01",
-      "endDate": "2018-01-01",
-      "url": "https://example.com"
+      "name": "Open Source",
+      "icon": "fa-solid fa-tag",
+      "keywords": ["community", "collaboration", "transparency", "innovation"]
     }
   ]
 }
