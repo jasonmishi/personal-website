@@ -79,10 +79,7 @@
       "startDate": "2023-06-01",
       "endDate": "2024-06-01",
       "summary": "As seargent at arms, I am responsible for aquiring and setting meeting space, managing and ensuring that all necessary materials are available, and maintaining order during the meeting. I also assist the president in managing the meeting and help to create a positive and productive environment for all members.",
-      "highlights": [
-        "Club won the Golden Gavel for the year.",
-        "Club won the President's Distinguished Club award for the year."
-      ]
+      "highlights": ["Club won the Golden Gavel for the year.", "Club won the President's Distinguished Club award for the year."]
     }
   ],
   "education": [
@@ -164,50 +161,19 @@
       "name": "Artificial Intelligence and Machine Learning",
       "level": "Professional",
       "icon": "fa-solid fa-hashtag",
-      "keywords": [
-        "tensorflow",
-        "TinyML",
-        "Natural Language Processing",
-        "pandas",
-        "langchain",
-        "R",
-        "Data Analysis",
-        "Python"
-      ]
+      "keywords": ["tensorflow", "TinyML", "Natural Language Processing", "pandas", "langchain", "R", "Data Analysis", "Python"]
     },
     {
       "name": "DevOps, Linux and Cloud",
       "level": "Intermediate",
       "icon": "fa-solid fa-cloud",
-      "keywords": [
-        "python",
-        "AWS",
-        "Docker",
-        "Git",
-        "NixOS",
-        "Linux",
-        "GitHub Actions",
-        "CI/CD",
-        "Serverless"
-      ]
+      "keywords": ["python", "AWS", "Docker", "Git", "NixOS", "Linux", "GitHub Actions", "CI/CD", "Serverless"]
     },
     {
       "name": "Web Development",
       "level": "Professional",
       "icon": "fa-solid fa-globe",
-      "keywords": [
-        "JavaScript",
-        "Vue.js",
-        "TypeScript",
-        "CSS",
-        "Django",
-        "FastAPI",
-        "React",
-        "Electron",
-        "Git",
-        "Python",
-        "Wordpress"
-      ]
+      "keywords": ["JavaScript", "Vue.js", "TypeScript", "CSS", "Django", "FastAPI", "React", "Electron", "Git", "Python", "Wordpress"]
     }
   ],
   "languages": [
@@ -226,31 +192,17 @@
     {
       "name": "Phychology",
       "icon": "fa-solid fa-tag",
-      "keywords": [
-        "metacognition",
-        "learning theories",
-        "memory",
-        "stress"
-      ]
+      "keywords": ["metacognition", "learning theories", "memory", "stress"]
     },
     {
       "name": "Music",
       "icon": "fa-solid fa-tag",
-      "keywords": [
-        "guitar",
-        "singing",
-        "songwriting"
-      ]
+      "keywords": ["guitar", "singing", "songwriting"]
     },
     {
       "name": "Open Source",
       "icon": "fa-solid fa-tag",
-      "keywords": [
-        "community",
-        "collaboration",
-        "transparency",
-        "innovation"
-      ]
+      "keywords": ["community", "collaboration", "transparency", "innovation"]
     }
   ]
 }
