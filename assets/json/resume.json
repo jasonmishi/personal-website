@@ -4,9 +4,9 @@
     "label": "Senior Software Engineer",
     "image": "",
     "email": "jasonmishi@gmail.com",
-    "phone": "",
+    "phone": "-",
     "url": "https://jason.lk",
-    "summary": "Software Engineer with a focus on Artificial Intelligence, automation and full stack web-development. Capable of using a combination of technical and people skills to deliver high-quality software solutions. Broad technical expertise in software development, machine learning, and data science.",
+    "summary": "Generalist Software Engineer with a focus on Artificial Intelligence, automation and full stack web-development. Capable of using a combination of technical and people skills to deliver high-quality system solutions. Interested in how things and people work. Broad technical expertise in software design and development, machine learning, and data science. Adoptable and interested in varying technology engineering roles.",
     "location": {
       "address": "",
       "postalCode": "11300",
@@ -33,8 +33,14 @@
       "position": "Senior Machine Learning Engineer",
       "url": "https://innodata.com/",
       "startDate": "2024-07-01",
-      "summary": "",
-      "highlights": [""]
+      "summary": "Architect and deploy multi-lingual, multi-region AI solutions for major global publishers, ensuring GDPR and ISO 27001 compliance. Develop internal tools for FANG and tech company projects. Drive company transformation through CI/CD, serverless architectures, and DevOps best practices.",
+      "highlights": [
+        "Introduced the use of CICD and Code Quality tools such as SonarQube to the company.",
+        "Utilized serverless, containerized architectures to reduce costs in low traffic AI solutions.",
+        "Architected highly available, multi-region deployed multi-lingual AI solutions for publishing clients.",
+        "Introduced the company to IaC in line with customer requirements.",
+        "Helping with efforts to containerize legacy applications"
+      ]
     },
     {
       "name": "20C / FullCtl",
@@ -42,8 +48,14 @@
       "url": "https://20c.com/",
       "startDate": "2022-02-01",
       "endDate": "2024-07-01",
-      "summary": "",
-      "highlights": [""]
+      "summary": "Developed full-stack network automation tools at open source first company specializing in network security. Built and maintained FullCtl peering management and network automation tools. Contributed to maintaining PeeringDB open source project. Led frontend development initially with legacy vanilla JS library and then later migration effort to Vue.js. Did backend work with Python and Django.",
+      "highlights": [
+        "Introduced the use of Vue.js instead of an inhouse vanilla JS framework.",
+        "Took over and maintained a project for a internet exchange standards organization that was previously developed by another company when there was no experience within the company for the technology stack used.",
+        "OpenSource contributions to PeeringDB",
+        "Overhaul of UI for fullctl",
+        "Developed and help deploy many documentation and client websites using fully automated CI/CD"
+      ]
     },
     {
       "name": "Innodata Inc. (Innodata Lanka)",
@@ -51,8 +63,11 @@
       "url": "https://innodata.com/",
       "startDate": "2020-04-01",
       "endDate": "2022-02-01",
-      "summary": "",
-      "highlights": [""]
+      "summary": "Was hired in some of the company's first outsourcing software development projects. Initially in a data engineering/web scraping project and then assigned as the only frontend engineer in a project to develop a WYSIWYG custom XML editor for one the largest standards organizations. This product has become a key part of the company's product line.",
+      "highlights": [
+        "POC for a serverless containerized web scraping solution using AWS Lambda and Docker.",
+        "Developed and designed a custom WYSIWYG XML editor with custom formats and plugins for a large standards organization."
+      ]
     }
   ],
   "volunteer": [
@@ -64,7 +79,10 @@
       "startDate": "2023-06-01",
       "endDate": "2024-06-01",
       "summary": "As seargent at arms, I am responsible for aquiring and setting meeting space, managing and ensuring that all necessary materials are available, and maintaining order during the meeting. I also assist the president in managing the meeting and help to create a positive and productive environment for all members.",
-      "highlights": ["Club won the Golden Gavel for the year.", "Club won the President's Distinguished Club award for the year."]
+      "highlights": [
+        "Club won the Golden Gavel for the year.",
+        "Club won the President's Distinguished Club award for the year."
+      ]
     }
   ],
   "education": [
@@ -76,7 +94,7 @@
       "studyType": "BEng",
       "startDate": "2021-01-01",
       "endDate": "2026-05-01",
-      "score": "- (ongoing)",
+      "score": "ongoing",
       "courses": [
         "Artificial Intelligence & Data Science",
         "Concurrent Programming",
@@ -121,6 +139,12 @@
   ],
   "certificates": [
     {
+      "name": "Linux Systems Administration and DevOps Engineering (On-going)",
+      "date": "2025-11-01",
+      "issuer": "WSO2",
+      "icon": "fa-solid fa-location-dot"
+    },
+    {
       "name": "Professional Certificate: Tiny Machine Learning (TinyML)",
       "date": "2021-11-01",
       "issuer": "HarvardX",
@@ -140,19 +164,50 @@
       "name": "Artificial Intelligence and Machine Learning",
       "level": "Professional",
       "icon": "fa-solid fa-hashtag",
-      "keywords": ["tensorflow", "TinyML", "Natural Language Processing", "pandas", "langchain", "R", "Data Analysis", "Python"]
-    },
-    {
-      "name": "Web Development",
-      "level": "Professional",
-      "icon": "fa-solid fa-globe",
-      "keywords": ["JavaScript", "Vue.js", "TypeScript", "CSS", "Django", "FastAPI", "React", "Electron", "Git", "Python", "Wordpress"]
+      "keywords": [
+        "tensorflow",
+        "TinyML",
+        "Natural Language Processing",
+        "pandas",
+        "langchain",
+        "R",
+        "Data Analysis",
+        "Python"
+      ]
     },
     {
       "name": "DevOps, Linux and Cloud",
       "level": "Intermediate",
       "icon": "fa-solid fa-cloud",
-      "keywords": ["python", "AWS", "Docker", "Git", "NixOS", "Linux", "GitHub Actions", "CI/CD", "Serverless"]
+      "keywords": [
+        "python",
+        "AWS",
+        "Docker",
+        "Git",
+        "NixOS",
+        "Linux",
+        "GitHub Actions",
+        "CI/CD",
+        "Serverless"
+      ]
+    },
+    {
+      "name": "Web Development",
+      "level": "Professional",
+      "icon": "fa-solid fa-globe",
+      "keywords": [
+        "JavaScript",
+        "Vue.js",
+        "TypeScript",
+        "CSS",
+        "Django",
+        "FastAPI",
+        "React",
+        "Electron",
+        "Git",
+        "Python",
+        "Wordpress"
+      ]
     }
   ],
   "languages": [
@@ -163,7 +218,7 @@
     },
     {
       "language": "Sinhala",
-      "fluency": "Fluent",
+      "fluency": "Proficient",
       "icon": ""
     }
   ],
@@ -171,7 +226,31 @@
     {
       "name": "Phychology",
       "icon": "fa-solid fa-tag",
-      "keywords": ["metacognition", "learning theories", "cognitive development", "memory", "stress"]
+      "keywords": [
+        "metacognition",
+        "learning theories",
+        "memory",
+        "stress"
+      ]
+    },
+    {
+      "name": "Music",
+      "icon": "fa-solid fa-tag",
+      "keywords": [
+        "guitar",
+        "singing",
+        "songwriting"
+      ]
+    },
+    {
+      "name": "Open Source",
+      "icon": "fa-solid fa-tag",
+      "keywords": [
+        "community",
+        "collaboration",
+        "transparency",
+        "innovation"
+      ]
     }
   ]
 }
