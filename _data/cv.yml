@@ -1,97 +1,186 @@
-- title: General Information
-  type: map
-  contents:
-    - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
-    - name: Languages
-      value: English, German
-
-- title: Education
-  type: time_table
-  contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
-      description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
-      description:
-        - Description 1.
-        - Description 2.
-
-- title: Experience
-  type: time_table
-  contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
-      description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
-      description:
-        - Description 1.
-        - Description 2.
-
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
-      description:
-
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
-
-- title: Open Source Projects
-  type: time_table
-  contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
-
-- title: Honors and Awards
-  type: time_table
-  contents:
-    - year: 1921
-      items:
-        - Nobel Prize in Physics
-        - Matteucci Medal
-    - year: 2029
-      items:
-        - Max Planck Medal
-
-- title: Academic Interests
-  type: nested_list
-  contents:
-    - title: Topic 1.
-      items:
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
-      items:
-        - Description 1.
-        - Description 2.
-
-- title: Other Interests
-  type: list
-  contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+cv:
+  name: Jason (Mishike) Carvalho
+  label: Senior Software Engineer
+  email: "jasonmishi@gmail.com"
+  phone: "-"
+  website: "https://jason.lk"
+  location: "Wattala, Colombo, Sri Lanka"
+  image: ""
+  summary: "Generalist Software Engineer with a focus on Artificial Intelligence, automation and full stack web-development. Capable of using a combination of technical and people skills to deliver high-quality system solutions. Interested in how things and people work. Broad technical expertise in software design and development, machine learning, and data science. Adoptable and interested in varying technology engineering roles."
+  social_networks:
+    - network: GitHub
+      username: jasonmishi
+    - network: LinkedIn
+      username: jasonmishi
+  address:
+    street: ""
+    city: Wattala
+    region: Colombo
+    postalCode: 11300
+    countryCode: LK
+  sections:
+    Experience:
+      - company: Innodata Inc. (Innodata Lanka)
+        position: Senior Machine Learning Engineer
+        url: "https://innodata.com/"
+        start_date: 2024-07-01
+        summary: "Architect and deploy multi-lingual, multi-region AI solutions for major global publishers, ensuring GDPR and ISO 27001 compliance. Develop internal tools for FANG and tech company projects. Drive company transformation through CI/CD, serverless architectures, and DevOps best practices."
+        highlights:
+          - Introduced the use of CICD and Code Quality tools such as SonarQube to the company.
+          - "Utilized serverless, containerized architectures to reduce costs in low traffic AI solutions."
+          - "Architected highly available, multi-region deployed multi-lingual AI solutions for publishing clients."
+          - Introduced the company to IaC in line with customer requirements.
+          - Helping with efforts to containerize legacy applications
+      - company: 20C / FullCtl
+        position: Software Engineer
+        url: "https://20c.com/"
+        start_date: 2022-02-01
+        end_date: 2024-07-01
+        summary: Developed full-stack network automation tools at open source first company specializing in network security. Built and maintained FullCtl peering management and network automation tools. Contributed to maintaining PeeringDB open source project. Led frontend development initially with legacy vanilla JS library and then later migration effort to Vue.js. Did backend work with Python and Django.
+        highlights:
+          - Introduced the use of Vue.js instead of an inhouse vanilla JS framework.
+          - Took over and maintained a project for a internet exchange standards organization that was previously developed by another company when there was no experience within the company for the technology stack used.
+          - OpenSource contributions to PeeringDB
+          - Overhaul of UI for fullctl
+          - Developed and help deploy many documentation and client websites using fully automated CI/CD
+      - company: Innodata Inc. (Innodata Lanka)
+        position: Software Engineer
+        url: "https://innodata.com/"
+        start_date: 2020-04-01
+        end_date: 2022-02-01
+        summary: Was hired in some of the company's first outsourcing software development projects. Initially in a data engineering/web scraping project and then assigned as the only frontend engineer in a project to develop a WYSIWYG custom XML editor for one the largest standards organizations. This product has become a key part of the company's product line.
+        highlights:
+          - POC for a serverless containerized web scraping solution using AWS Lambda and Docker.
+          - Developed and designed a custom WYSIWYG XML editor with custom formats and plugins for a large standards organization.
+    Volunteer:
+      - company: Toastmasters International
+        position: Sergeant at Arms
+        location: "IIT, Colombo, Sri Lanka"
+        url: "https://www.toastmasters.org/Find-a-Club/03835845-informatics-institute-of-technology"
+        start_date: 2023-06-01
+        end_date: 2024-06-01
+        summary: "As seargent at arms, I am responsible for aquiring and setting meeting space, managing and ensuring that all necessary materials are available, and maintaining order during the meeting. I also assist the president in managing the meeting and help to create a positive and productive environment for all members."
+        highlights:
+          - Club won the Golden Gavel for the year.
+          - Club won the President's Distinguished Club award for the year.
+    Education:
+      - institution: "University of Westminster, (Delivered by Informatics Institute of Technology)"
+        location: "Colombo, Sri Lanka"
+        url: "https://www.westminster.ac.uk/international/your-country/sri-lanka"
+        area: Software Engineering
+        studyType: BEng
+        start_date: 2021-01-01
+        end_date: 2026-05-01
+        score: ongoing
+        courses:
+          - "Artificial Intelligence & Data Science"
+          - Concurrent Programming
+          - "Data Structures & Algorithms"
+          - Formal Methods
+          - Cyber Security
+    Awards:
+      - title: IIT Excelence Award
+        date: 2024-12-31
+        awarder: Informatics Institute of Technology
+        summary: Awarded for outstanding performance and contribution to the university community.
+      - title: Predicta 1.0 - Second Runners Up
+        date: 2024-05-30
+        awarder: IEEE - University of Peradeniya
+        url: "https://web.archive.org/web/20250510115153/https://ieee.soc.pdn.ac.lk/events/predicta"
+        summary: AI hackathon organized by IEEE - University of Peradeniya. Team DataDragons.
+      - title: Champion - Parallax 2022
+        date: 2022-05-30
+        awarder: Rotract Club of Informatics Institute of Technology
+        summary: Designathon and hackathon for web UI/UX and web development.
+      - title: Haxmas 2022 - First Runners up
+        date: 2022-05-30
+        awarder: Rotract Club of Informatics Institute of Technology
+        summary: "Ideathon and hackathon sponsored and hosted by Ascentic, organized by Rotract Club of IIT."
+      - title: InfoSchol Scholarship - 2021 Jan
+        date: 2021-01-01
+        awarder: Informatics Institute of Technology
+        summary: One of 70 recipeients for the Scholarship that covers the entire tuition fee for the BEng Software Engineering degree by working at selected companies.
+    Certificates:
+      - name: Linux Systems Administration and DevOps Engineering (On-going)
+        date: 2025-11-01
+        issuer: WSO2
+        icon: fa-solid fa-location-dot
+      - name: "Professional Certificate: Tiny Machine Learning (TinyML)"
+        date: 2021-11-01
+        issuer: HarvardX
+        url: "https://credentials.edx.org/credentials/6a47bab396284f1c935965e152ee9bbb/"
+        icon: fa-solid fa-location-dot
+      - name: Software Architecture Foundations
+        date: 2022-05-01
+        issuer: LinkedIn
+        url: "https://www.linkedin.com/learning/certificates/d8f04fb6ae5c17fffc5465c700f5dda4aac1f00f38e2d632e297bab083dc08d5?accountId=76664938&u=76664938&success=true&authUUID=0T02qg1wTHKheEBALozDfQ%3D%3D"
+        icon: fa-solid fa-tag
+    Skills:
+      - name: Artificial Intelligence and Machine Learning
+        level: Professional
+        icon: fa-solid fa-hashtag
+        keywords:
+          - tensorflow
+          - TinyML
+          - Natural Language Processing
+          - pandas
+          - langchain
+          - R
+          - Data Analysis
+          - Python
+      - name: "DevOps, Linux and Cloud"
+        level: Intermediate
+        icon: fa-solid fa-cloud
+        keywords:
+          - python
+          - AWS
+          - Docker
+          - Git
+          - NixOS
+          - Linux
+          - GitHub Actions
+          - CI/CD
+          - Serverless
+      - name: Web Development
+        level: Professional
+        icon: fa-solid fa-globe
+        keywords:
+          - JavaScript
+          - Vue.js
+          - TypeScript
+          - CSS
+          - Django
+          - FastAPI
+          - React
+          - Electron
+          - Git
+          - Python
+          - Wordpress
+    Languages:
+      - name: English
+        summary: Fluent
+        icon: ""
+      - name: Sinhala
+        summary: Proficient
+        icon: ""
+    Interests:
+      - name: Phychology
+        icon: fa-solid fa-tag
+        keywords:
+          - metacognition
+          - learning theories
+          - memory
+          - stress
+      - name: Music
+        icon: fa-solid fa-tag
+        keywords:
+          - guitar
+          - singing
+          - songwriting
+      - name: Open Source
+        icon: fa-solid fa-tag
+        keywords:
+          - community
+          - collaboration
+          - transparency
+          - innovation
