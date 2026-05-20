@@ -8,7 +8,7 @@ categories: Dev DevOps
 featured: true
 ---
 
-I wanted to host my `al-folio` site on Cloudflare Pages, but most guides I found were based on an older GitHub Action that has since been deprecated. The setup that works for this repo is slightly different: GitHub Actions does the build, Cloudflare Pages only hosts the output, and Cloudflare's automatic Git-based deployment is paused.
+I wanted to host my `al-folio` site on Cloudflare Pages, but most guides I found were based on an older GitHub Action that has since been deprecated. This post shows how to do it with Cloudflare's wrangler which is the actively supported flow.
 
 ## Why Cloudflare pages over GitHub pages
 
