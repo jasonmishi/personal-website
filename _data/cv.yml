@@ -1,24 +1,14 @@
 cv:
   name: Jason (Mishike) Carvalho
-  label: Senior Software Engineer
+  headline: Senior Software Engineer
   email: "jasonmishi@gmail.com"
-  phone: "-"
   website: "https://jason.lk"
   location: "Wattala, Colombo, Sri Lanka"
-  image: ""
-  summary: "Generalist Software Engineer with a focus on Artificial Intelligence, automation and full stack web-development. Capable of using a combination of technical and people skills to deliver high-quality system solutions. Interested in how things and people work. Broad technical expertise in software design and development, machine learning, and data science. Adoptable and interested in varying technology engineering roles."
+  photo: "../assets/img/prof_pic.jpg"
   social_networks:
-    - network: GitHub
-      username: jasonmishi
-    - network: LinkedIn
-      username: jasonmishi
-  address:
-    street: ""
-    city: Wattala
-    region: Colombo
-    postalCode: 11300
-    countryCode: LK
   sections:
+    Summary:
+      - "Generalist Software Engineer with a focus on Artificial Intelligence, automation and full stack web-development. Capable of using a combination of technical and people skills to deliver high-quality system solutions. Interested in how things and people work. Broad technical expertise in software design and development, machine learning, and data science. Adoptable and interested in varying technology engineering roles."
     Experience:
       - company: Innodata Inc. (Innodata Lanka)
         position: Senior Machine Learning Engineer
@@ -68,39 +58,34 @@ cv:
         location: "Colombo, Sri Lanka"
         url: "https://www.westminster.ac.uk/international/your-country/sri-lanka"
         area: Software Engineering
-        studyType: BEng
+        degree: BEng
         start_date: 2021-01-01
         end_date: 2026-05-01
         score: ongoing
-        courses:
-          - "Artificial Intelligence & Data Science"
-          - Concurrent Programming
-          - "Data Structures & Algorithms"
-          - Formal Methods
-          - Cyber Security
+        courses: "Artificial Intelligence & Data Science, Concurrent Programming, Data Structures & Algorithms, Formal Methods, Cyber Security"
     Awards:
-      - title: Linux Systems Administration and DevOps Engineering scholarship
+      - name: Linux Systems Administration and DevOps Engineering scholarship
         date: 2026-04-01
         awarder: WSO2
         summary: One of the 200 (out of 5000) applicants selected to participate in and complete a comprehensive course on modern cloud operations conducted by WSO2 including kubernetes, terraform, Zero trust security, linux adminsiatation and CI/CD principles, one for the 130 people to complete the program successfully.
-      - title: IIT Excelence Award
+      - name: IIT Excelence Award
         date: 2024-12-31
         awarder: Informatics Institute of Technology
         summary: Awarded for outstanding performance and contribution to the university community.
-      - title: Predicta 1.0 - Second Runners Up
+      - name: Predicta 1.0 - Second Runners Up
         date: 2024-05-30
         awarder: IEEE - University of Peradeniya
         url: "https://web.archive.org/web/20250510115153/https://ieee.soc.pdn.ac.lk/events/predicta"
         summary: AI hackathon organized by IEEE - University of Peradeniya. Team DataDragons.
-      - title: Champion - Parallax 2022
+      - name: Champion - Parallax 2022
         date: 2022-05-30
         awarder: Rotract Club of Informatics Institute of Technology
         summary: Designathon and hackathon for web UI/UX and web development.
-      - title: Haxmas 2022 - First Runners up
+      - name: Haxmas 2022 - First Runners up
         date: 2022-05-30
         awarder: Rotract Club of Informatics Institute of Technology
         summary: "Ideathon and hackathon sponsored and hosted by Ascentic, organized by Rotract Club of IIT."
-      - title: InfoSchol Scholarship - 2021 Jan
+      - name: InfoSchol Scholarship - 2021 Jan
         date: 2021-01-01
         awarder: Informatics Institute of Technology
         summary: One of 70 recipeients for the Scholarship that covers the entire tuition fee for the BEng Software Engineering degree by working at selected companies.
@@ -120,71 +105,21 @@ cv:
         url: "https://www.linkedin.com/learning/certificates/d8f04fb6ae5c17fffc5465c700f5dda4aac1f00f38e2d632e297bab083dc08d5?accountId=76664938&u=76664938&success=true&authUUID=0T02qg1wTHKheEBALozDfQ%3D%3D"
         icon: fa-solid fa-tag
     Skills:
-      - name: Artificial Intelligence and Machine Learning
-        level: Professional
-        icon: fa-solid fa-hashtag
-        keywords:
-          - tensorflow
-          - TinyML
-          - Natural Language Processing
-          - pandas
-          - langchain
-          - R
-          - Data Analysis
-          - Python
-      - name: "DevOps, Linux and Cloud"
-        level: Intermediate
-        icon: fa-solid fa-cloud
-        keywords:
-          - python
-          - AWS
-          - Docker
-          - Git
-          - NixOS
-          - Linux
-          - GitHub Actions
-          - CI/CD
-          - Serverless
-      - name: Web Development
-        level: Professional
-        icon: fa-solid fa-globe
-        keywords:
-          - JavaScript
-          - Vue.js
-          - TypeScript
-          - CSS
-          - Django
-          - FastAPI
-          - React
-          - Electron
-          - Git
-          - Python
-          - Wordpress
+      - label: Artificial Intelligence and Machine Learning
+        details: "tensorflow, TinyML, Natural Language Processing, pandas, langchain, R, Data Analysis, Python"
+      - label: "DevOps, Linux and Cloud"
+        details: "python, AWS, Docker, Git, NixOS, Linux, GitHub Actions, CI/CD, Serverless"
+      - label: Web Development
+        details: "JavaScript, Vue.js, TypeScript, CSS, Django, FastAPI, React, Electron, Git, Python, Wordpress"
     Languages:
-      - name: English
-        summary: Fluent
-        icon: ""
-      - name: Sinhala
-        summary: Proficient
-        icon: ""
+      - label: English
+        details: Fluent
+      - label: Sinhala
+        details: Proficient
     Interests:
-      - name: Phychology
-        icon: fa-solid fa-tag
-        keywords:
-          - metacognition
-          - learning theories
-          - memory
-          - stress
-      - name: Music
-        icon: fa-solid fa-tag
-        keywords:
-          - guitar
-          - singing
-          - songwriting
-      - name: Open Source
-        icon: fa-solid fa-tag
-        keywords:
-          - community
-          - collaboration
-          - transparency
-          - innovation
+      - label: Phychology
+        details: "metacognition, learning theories, memory, stress"
+      - label: Music
+        details: "guitar, singing, songwriting"
+      - label: Open Source
+        details: "community, collaboration, transparency, innovation"

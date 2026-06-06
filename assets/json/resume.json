@@ -103,6 +103,12 @@
   ],
   "awards": [
     {
+      "title": "Linux Systems Administration and DevOps Engineering scholarship",
+      "date": "2026-04-01",
+      "awarder": "WSO2",
+      "summary": "One of the 200 (out of 5000) applicants selected to participate in and complete a comprehensive course on modern cloud operations conducted by WSO2 including kubernetes, terraform, Zero trust security, linux adminsiatation and CI/CD principles, one for the 130 people to complete the program successfully."
+    },
+    {
       "title": "IIT Excelence Award",
       "date": "2024-12-31",
       "awarder": "Informatics Institute of Technology",
