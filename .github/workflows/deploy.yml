@@ -69,7 +69,7 @@ on:
 
 permissions:
   contents: write
-
+  pull-requests: write
 jobs:
   deploy:
     # available images: https://github.com/actions/runner-images#available-images
@@ -110,3 +110,4 @@ jobs:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
           command: pages deploy _site --project-name=jasonmishi --branch=${{ env.BRANCH_NAME }} --commit-hash=${{ env.COMMIT_SHA }}
+          gitHubToken: ${{ secrets.GITHUB_TOKEN }}
