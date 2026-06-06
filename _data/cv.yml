@@ -79,6 +79,10 @@ cv:
           - Formal Methods
           - Cyber Security
     Awards:
+      - title: Linux Systems Administration and DevOps Engineering scholarship
+        date: 2026-04-01
+        awarder: WSO2
+        summary: One of the 200 (out of 5000) applicants selected to participate in and complete a comprehensive course on modern cloud operations conducted by WSO2 including kubernetes, terraform, Zero trust security, linux adminsiatation and CI/CD principles, one for the 130 people to complete the program successfully.
       - title: IIT Excelence Award
         date: 2024-12-31
         awarder: Informatics Institute of Technology
@@ -101,8 +105,8 @@ cv:
         awarder: Informatics Institute of Technology
         summary: One of 70 recipeients for the Scholarship that covers the entire tuition fee for the BEng Software Engineering degree by working at selected companies.
     Certificates:
-      - name: Linux Systems Administration and DevOps Engineering (On-going)
-        date: 2025-11-01
+      - name: Linux Systems Administration and DevOps Engineering
+        date: 2026-04-01
         issuer: WSO2
         icon: fa-solid fa-location-dot
       - name: "Professional Certificate: Tiny Machine Learning (TinyML)"
