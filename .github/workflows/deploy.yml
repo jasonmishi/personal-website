@@ -65,7 +65,7 @@ on:
 
 permissions:
   contents: write
-  pull-requests: write
+  deployments: write
 jobs:
   deploy:
     # available images: https://github.com/actions/runner-images#available-images
