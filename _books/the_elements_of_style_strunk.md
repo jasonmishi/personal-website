@@ -5,6 +5,8 @@ author: "William Strunk Jr., E. B. White"
 cover: assets/img/book_covers/the_elements_of_style_strunk.jpg
 categories: non-fiction writing grammar reference
 tags: non-fiction
+started: 2022-09-01
+finished: 2022-10-01
 date: 2022-10-01
 stars: 3
 isbn: 9780205309023
