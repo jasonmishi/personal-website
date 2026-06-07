@@ -1,0 +1,15 @@
+---
+layout: book-review
+title: "Crime and Punishment"
+author: "Fyodor Dostoevsky"
+cover: assets/img/book_covers/crime_and_punishment_dostoevsky.jpg
+categories: fiction classics russian-literature
+tags: fiction great-books-of-the-western-world
+started: 2024-03-01
+finished: 2024-04-01
+date: 2024-04-01
+stars: 5
+isbn: 9780143058144
+released: 1866
+status: Finished
+---
