@@ -11,7 +11,7 @@ started: 2022-01-01
 finished: 2022-01-15
 date: 2022-01-15
 released: 2018
-stars: 5
+stars: 4
 status: Finished
 ---
 
